@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0014)about:internet --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen"><link rel="stylesheet" href="../../../../print.css" type="text/css" media="print"><link rel="stylesheet" href="../../../../override.css" type="text/css"><meta name="keywords" content="Debug,com.hexagonstar.util.debug.Debug,FPS_UPDATE,LEVEL_DEBUG,LEVEL_ERROR,LEVEL_FATAL,LEVEL_INFO,LEVEL_WARN,enabled,filterLevel,fps,frt,started,timeInMilliSeconds,timeInSeconds,clear,createCategory,delimiter,forceGC,hexDump,inspect,mark,monitor,pause,reset,reset,start,start,stop,stop,stop,time,timerInMilliSeconds,timerInSeconds,timerReset,timerStart,timerStop,timerStopToString,timerToString,toString,trace,traceObj"><title>com.hexagonstar.util.debug.Debug</title></head><body><script language="javascript" type="text/javascript" src="../../../../asdoc.js"></script><script language="javascript" type="text/javascript" src="../../../../help.js"></script><script language="javascript" type="text/javascript" src="../../../../cookies.js"></script><script language="javascript" type="text/javascript"><!--
+				asdocTitle = 'Debug - API Documentation';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<script type="text/javascript">
+			scrollToNameAnchor();
+		</script><table class="titleTable" cellpadding="0" cellspacing="0" id="titleTable" style="display:none"><tr><td class="titleTableTitle" align="left">gLogger</td><td class="titleTableTopNav" align="right"><a href="../../../../package-summary.html" onclick="loadClassListFrame('../../../../all-classes.html')">All Packages</a>&nbsp;|&nbsp;<a href="../../../../class-summary.html" onclick="loadClassListFrame('../../../../all-classes.html')">All Classes</a>&nbsp;|&nbsp;<a href="../../../../all-index-A.html" onclick="loadClassListFrame('../../../../index-list.html')">Index</a>&nbsp;|&nbsp;<a id="framesLink1" href="../../../../index.html?com/hexagonstar/util/debug/Debug.html&amp;com/hexagonstar/util/debug/class-list.html">Frames</a><a id="noFramesLink1" style="display:none" href="" onclick="parent.location=document.location"> No Frames </a></td><td class="titleTableLogo" align="right" rowspan="3"><img src="../../../../images/logo.jpg" class="logoImage" alt=" Adobe Logo " title=" Adobe Logo "></td></tr><tr class="titleTableRow2"><td class="titleTableSubTitle" id="subTitle" align="left">Debug</td><td class="titleTableSubNav" id="subNav" align="right"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a>&nbsp;| <a href="#constantSummary">Constants</a></td></tr><tr class="titleTableRow3"><td colspan="3">&nbsp;</td></tr></table><script language="javascript" type="text/javascript" xml:space="preserve">
+				<!--
+				
+					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Debug"); titleBar_setSubNav(true,true,false,false,false,false,false,false,true,false,false	,false,false,false,false,false);}	
+				-->
+			</script><div xmlns:fn="http://www.w3.org/2005/xpath-functions" class="MainContent"><table class="classHeaderTable" cellpadding="0" cellspacing="0"><tr><td class="classHeaderTableLabel">Package</td><td><a href="package-detail.html" onclick="javascript:loadClassListFrame('class-list.html')">com.hexagonstar.util.debug</a></td></tr><tr><td class="classHeaderTableLabel">Class</td><td class="classSignature">public final   class  Debug</td></tr><tr><td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">Debug  <img src="../../../../images/inherit-arrow.gif" title="Inheritance" alt="Inheritance" class="inheritArrow"> Object</td></tr></table><p></p><p></p><p></p>
+	 The Debug class is a static class that is used to send debugging information
+	 to Alcon. It can be used to simply output information with the <code>trace()
+	 </code> method, recursively output objects with <code>traceObj()</code> or
+	 inspect objects with the <code>inspect()</code> method, start monitoring the
+	 applications framerate with <code>monitor()</code> and to use other debugging
+	 assets like a Stopwatch.
+	 To use this class import it into any class that should make use of it and then
+	 call any of the debugging methods anywhere in your class.
+	 
+	 <p></p><br/><hr></div><a name="propertySummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Properties</div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableProperty"><tr><th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#enabled" class="signatureLink">enabled</a> : Boolean<div class="summaryTableDescription">[static] 
+		 Determines whether the Debug class is currently enabled or disabled.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#filterLevel" class="signatureLink">filterLevel</a> : int<div class="summaryTableDescription">[static] 
+		 The currently used Debugging Filter Level.</div></td><td class="summaryTableOwnerCol">Debug</td></tr></table></div><a name="methodSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Methods </div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableMethod"><tr><th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#Debug()" class="signatureLink">Debug</a>()</div><div class="summaryTableDescription">
+		 Internal Constructor.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#clear()" class="signatureLink">clear</a>():void</div><div class="summaryTableDescription">[static] 
+		 Clears Alcon's Trace buffer.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#createCategory()" class="signatureLink">createCategory</a>(id:int, name:String, textColor:uint = 0x000000, bgColor:uint = 0xFFFF00):void</div><div class="summaryTableDescription">[static] 
+		 createCategory
+		 </div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#delimiter()" class="signatureLink">delimiter</a>():void</div><div class="summaryTableDescription">[static] 
+		 Output's a delimiter String to Alcon's Trace Logger that can be used to
+		 quickly seperate different kinds of debug informations, making it easier
+		 to read them.This does the same like sending the DLT signal manually:
+		 Debug.trace("[%DLT%]");
+		 </div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#forceGC()" class="signatureLink">forceGC</a>():void</div><div class="summaryTableDescription">[static] 
+		 Forces an immediate Garbage Collector mark/sweep.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#hexDump()" class="signatureLink">hexDump</a>(obj:Object):void</div><div class="summaryTableDescription">[static] 
+		 Outputs a hexadecimal dump of the specified object to Alcon's Trace
+		 Logger.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#inspect()" class="signatureLink">inspect</a>(obj:Object):void</div><div class="summaryTableDescription">[static] 
+		 Inspects the specified Object, Array or Class with Alcon's Object
+		 Inspector.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#mark()" class="signatureLink">mark</a>(color:uint = 0xFF00FF):void</div><div class="summaryTableDescription">[static] 
+		 Places a marker in Alcon's App Monitor graph.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#monitor()" class="signatureLink">monitor</a>(stage:Stage, pollInterval:int = 500):void</div><div class="summaryTableDescription">[static] 
+		 Starts monitoring the application.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#pause()" class="signatureLink">pause</a>():void</div><div class="summaryTableDescription">[static] 
+		 Pauses Alcon.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#stop()" class="signatureLink">stop</a>():void</div><div class="summaryTableDescription">[static] 
+		 Stops monitoring the application after it has been started with
+		 Debug.monitor().</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#time()" class="signatureLink">time</a>():void</div><div class="summaryTableDescription">[static] 
+		 Sends a Time and Date stamp to Alcon's Trace Logger.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#timerInMilliSeconds()" class="signatureLink">timerInMilliSeconds</a>():void</div><div class="summaryTableDescription">[static] 
+		 Outputs the measured Stopwatch time in milliseconds to Alcon's Trace Logger.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#timerInSeconds()" class="signatureLink">timerInSeconds</a>():void</div><div class="summaryTableDescription">[static] 
+		 Outputs the measured Stopwatch time in seconds to Alcon's Trace Logger.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#timerReset()" class="signatureLink">timerReset</a>():void</div><div class="summaryTableDescription">[static] 
+		 Resets the Stopwatch.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#timerStart()" class="signatureLink">timerStart</a>(title:String):void</div><div class="summaryTableDescription">[static] 
+		 Starts a Stopwatch to measure a time amount.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#timerStop()" class="signatureLink">timerStop</a>():void</div><div class="summaryTableDescription">[static] 
+		 Stops the Stopwatch after it has been started with Debug.timerStart().</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#timerStopToString()" class="signatureLink">timerStopToString</a>(reset:Boolean = false):void</div><div class="summaryTableDescription">[static] 
+		 Stops the Stopwatch and immediately sends the measured time to the
+		 Trace Logger in the same format like Debug.timerToString().</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#timerToString()" class="signatureLink">timerToString</a>():void</div><div class="summaryTableDescription">[static] 
+		 Sends the measured Stopwatch time to the Trace Logger.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#trace()" class="signatureLink">trace</a>(... args):void</div><div class="summaryTableDescription">[static] 
+		 Traces out any specified data to Alcon's Trace logger.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#traceObj()" class="signatureLink">traceObj</a>(obj:Object, depth:int = 64, level:int = 1):void</div><div class="summaryTableDescription">[static] 
+		 Traces the specified Object, Array or Class recursively to Alcon's Trace
+		 logger.</div></td><td class="summaryTableOwnerCol">Debug</td></tr></table></div><a name="constantSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Constants</div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableConstant"><tr><th>&nbsp;</th><th colspan="2">Constant</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#LEVEL_DEBUG" class="signatureLink">LEVEL_DEBUG</a> : int = 0<div class="summaryTableDescription">[static] 
+		 The Debug.LEVEL_DEBUG constant defines the value of the Debug Filtering Level.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#LEVEL_ERROR" class="signatureLink">LEVEL_ERROR</a> : int = 3<div class="summaryTableDescription">[static] 
+		 The Debug.LEVEL_ERROR constant defines the value of the Error Filtering Level.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#LEVEL_FATAL" class="signatureLink">LEVEL_FATAL</a> : int = 4<div class="summaryTableDescription">[static] 
+		 The Debug.LEVEL_FATAL constant defines the value of the Fatal Filtering Level.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#LEVEL_INFO" class="signatureLink">LEVEL_INFO</a> : int = 1<div class="summaryTableDescription">[static] 
+		 The Debug.LEVEL_INFO constant defines the value of the Info Filtering Level.</div></td><td class="summaryTableOwnerCol">Debug</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a href="#LEVEL_WARN" class="signatureLink">LEVEL_WARN</a> : int = 2<div class="summaryTableDescription">[static] 
+		 The Debug.LEVEL_WARN constant defines the value of the Warn Filtering Level.</div></td><td class="summaryTableOwnerCol">Debug</td></tr></table></div><script language="javascript" type="text/javascript"><!--
+										showHideInherited();
+										--></script><div class="MainContent"><div class="detailSectionHeader">Property Detail</div><a name="propertyDetail"></a><a name="enabled"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">enabled</td><td class="detailHeaderType">property</td></tr></table><div class="detailBody"><code>enabled:Boolean</code><p></p><p></p><p>
+		 Determines whether the Debug class is currently enabled or disabled.
+		 If this property is set to false the Debug class will not send out
+		 any information to Alcon. This can be used to disable the Debug API
+		 completely without the need to remove any debugging code.
+		 </p><br/><span class="label"> Implementation </span><br/><code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get enabled():Boolean</code><br/><code>&nbsp;&nbsp;&nbsp;&nbsp;public static function set enabled(value:Boolean):void</code><br/></div><a name="propertyDetail"></a><a name="filterLevel"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">filterLevel</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code>filterLevel:int</code><p></p><p></p><p>
+		 The currently used Debugging Filter Level. By default this is 0 so that all
+		 levels of information are sent to the output. This property can be used to
+		 control the filter level from within the Debug class. For example setting
+		 this property to <code>Debug.LEVEL_ERROR</code> will only let information
+		 of Error and Fatal level pass.
+		 </p><br/><span class="label"> Implementation </span><br/><code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get filterLevel():int</code><br/><code>&nbsp;&nbsp;&nbsp;&nbsp;public static function set filterLevel(value:int):void</code><br/></div><a name="constructorDetail"></a><div class="detailSectionHeader">Constructor Detail</div><a name="Debug()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">Debug</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">Constructor</td></tr></table><div class="detailBody"><code>public function Debug()</code><p></p><p>
+		 Internal Constructor. The Debug class is static and doesn't need
+		 to be instantiated. Use any of the methods directly, e.g. <code>
+		 Debug.trace();</code>
+		 </p></div><a name="methodDetail"></a><div class="detailSectionHeader">Method Detail</div><a name="clear()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">clear</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td></tr></table><div class="detailBody"><code> public static function clear():void</code><p></p><p></p><p>
+		 Clears Alcon's Trace buffer. This does the same like sending the CLR signal
+		 manually: <code>Debug.trace("[%CLR%]");</code>
+		 
+		 </p></div><a name="createCategory()"></a><a name="createCategory(int,String,uint,uint)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">createCategory</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function createCategory(id:int, name:String, textColor:uint = 0x000000, bgColor:uint = 0xFFFF00):void</code><p></p><p></p><p>
+		 createCategory
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">id</span>:int</code></td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">name</span>:String</code></td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">textColor</span>:uint</code> (default = <code>0x000000</code>)<code></code></td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">bgColor</span>:uint</code> (default = <code>0xFFFF00</code>)<code></code></td></tr></table></p></div><a name="delimiter()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">delimiter</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function delimiter():void</code><p></p><p></p><p>
+		 Output's a delimiter String to Alcon's Trace Logger that can be used to
+		 quickly seperate different kinds of debug informations, making it easier
+		 to read them.This does the same like sending the DLT signal manually:
+		 <code>Debug.trace("[%DLT%]");</code>
+		 </p></div><a name="forceGC()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">forceGC</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function forceGC():void</code><p></p><p></p><p>
+		 Forces an immediate Garbage Collector mark/sweep. This method is only
+		 guaranteed to work for use in AIR applications!It first tries to
+		 use <code>System.gc()</code> and if that fails (i.e. when run in Flash
+		 Player) it falls back to a different method to cause a garbage collection
+		 that is not officially supported by ActionScript. Handle with care when
+		 run in a non-AIR-Runtime!
+		 </p></div><a name="hexDump()"></a><a name="hexDump(Object)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">hexDump</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function hexDump(obj:Object):void</code><p></p><p></p><p>
+		 Outputs a hexadecimal dump of the specified object to Alcon's Trace
+		 Logger.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">obj</span>:Object</code> &mdash; The object to output as a hex dump.
+		 </td></tr></table></p><br/><span class="label"> Example </span><br/>
+		 <p><pre>
+		 var array:Array = ["Sandy", "Beth", "Kayla"];
+		 Debug.hexDump(array);
+		 var obj:Object = {n1: "Sandy", n2: "Larry"};
+		 Debug.hexDump(obj);
+		 Debug.hexDump(stage);</pre>
+		 </p>
+		 </div><a name="inspect()"></a><a name="inspect(Object)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">inspect</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function inspect(obj:Object):void</code><p></p><p></p><p>
+		 Inspects the specified Object, Array or Class with Alcon's Object
+		 Inspector. For classes only public properties and methods can be
+		 inspected. Also note that uint's are always converted to int's by
+		 the Inspector.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">obj</span>:Object</code> &mdash; The Object, Array or Class to inspect.
+		 </td></tr></table></p><br/><span class="label"> Example </span><br/>
+		 <p><pre>
+		 var array:Array = [777, 123, "Gerry", "Gail"];
+		 Debug.inspect(array);
+		 var obj:Object = {n1: "Bill", n2: "Jenny"};
+		 Debug.inspect(obj);
+		 Debug.inspect(new Bitmap());</pre>
+		 </p>
+		 </div><a name="mark()"></a><a name="mark(uint)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">mark</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function mark(color:uint = 0xFF00FF):void</code><p></p><p></p><p>
+		 Places a marker in Alcon's App Monitor graph. Optionally a color
+		 can be specified for the marker.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">color</span>:uint</code> (default = <code>0xFF00FF</code>)<code></code> &mdash; The color for the marker.
+		 </td></tr></table></p></div><a name="monitor()"></a><a name="monitor(flash.display.Stage,int)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">monitor</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function monitor(stage:Stage, pollInterval:int = 500):void</code><p></p><p></p><p>
+		 Starts monitoring the application. When called starts measuring the currently
+		 debugged application's FPS (frames per second) and FRT (frame render time) and
+		 sends the values and the current memory consumption amount to Alcon's App Monitor.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">stage</span>:Stage</code> &mdash; The Stage object of the current host application.
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">pollInterval</span>:int</code> (default = <code>500</code>)<code></code> &mdash; The interval in milliseconds with that framerate-
+		         related data is being polled. The lower this value is the faster
+		         Alcon's App Monitor will update.
+		 </td></tr></table></p></div><a name="pause()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">pause</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function pause():void</code><p></p><p></p><p>
+		 Pauses Alcon. With this method Alcon's Trace and File Loggers are brought
+		 into Pause mode. This does the same like sending the PSE signal manually:
+		 <code>Debug.trace("[%PSE%]");</code>
+		 </p></div><a name="stop()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">stop</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function stop():void</code><p></p><p></p><p>
+		 Stops monitoring the application after it has been started with
+		 <code>Debug.monitor()</code>.
+		 </p></div><a name="time()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">time</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function time():void</code><p></p><p></p><p>
+		 Sends a Time and Date stamp to Alcon's Trace Logger. This does the same like
+		 sending the TME signal manually: <code>Debug.trace("[%TME%]");</code>
+		 
+		 </p><br/><span class="label"> Example </span><br/>
+		 <p><pre>
+		 Debug.time();</pre></p>
+		 <p>Output:</p>
+		 Sun Aug 17 2008 03:35:34 PM
+		 </div><a name="timerInMilliSeconds()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">timerInMilliSeconds</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function timerInMilliSeconds():void</code><p></p><p></p><p>
+		 Outputs the measured Stopwatch time in milliseconds to Alcon's Trace Logger.
+		 </p></div><a name="timerInSeconds()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">timerInSeconds</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function timerInSeconds():void</code><p></p><p></p><p>
+		 Outputs the measured Stopwatch time in seconds to Alcon's Trace Logger.
+		 </p></div><a name="timerReset()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">timerReset</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function timerReset():void</code><p></p><p></p><p>
+		 Resets the Stopwatch.
+		 </p></div><a name="timerStart()"></a><a name="timerStart(String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">timerStart</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function timerStart(title:String):void</code><p></p><p></p><p>
+		 Starts a Stopwatch to measure a time amount. This method can be used to
+		 measure the execution time for any code in the host application.
+		 Optionally a title can be specified to describe what the Stopwatch is
+		 measuring.
+		 The stopwatch can be started and stopped several times sequencially and
+		 then will list all measured times unless the Stopwatch has been reset
+		 with <code>Debug.timerReset()</code>.
+		 
+		 
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">title</span>:String</code> &mdash; An optional title for the Stopwatch.
+		 </td></tr></table></p></div><a name="timerStop()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">timerStop</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function timerStop():void</code><p></p><p></p><p>
+		 Stops the Stopwatch after it has been started with <code>Debug.timerStart()</code>.
+		 </p></div><a name="timerStopToString()"></a><a name="timerStopToString(Boolean)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">timerStopToString</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function timerStopToString(reset:Boolean = false):void</code><p></p><p></p><p>
+		 Stops the Stopwatch and immediately sends the measured time to the
+		 Trace Logger in the same format like <code>Debug.timerToString()</code>.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">reset</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; If true resets the Timer after the result has been output.
+		 </td></tr></table></p></div><a name="timerToString()"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">timerToString</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function timerToString():void</code><p></p><p></p><p>
+		 Sends the measured Stopwatch time to the Trace Logger. This method
+		 automatically formats the values to seconds and milliseconds.
+		 </p></div><a name="trace()"></a><a name="trace(restParam)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">trace</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function trace(... args):void</code><p></p><p></p><p>
+		 Traces out any specified data to Alcon's Trace logger. The data can be of
+		 any type e.g. String, Number, Object, Array etc. For tracing Objects and
+		 Arrays recursively use the <code>traceObj()</code> method instead. To inspect
+		 any object use the <code>inspect()</code> method.
+		 The trace method takes up to two arguments, the first being the data to
+		 output and the second an optional integer that determines the filter
+		 (or severity) level that the data is being output with. If specified,
+		 the filter level must be within the range of existing levels (0 to 4).
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code>... <span class="label">args</span></code> &mdash; The data to be traced.
+		 </td></tr></table></p><br/><span class="label"> Example </span><br/>
+		 <p><pre>
+		 Debug.trace("Profanity is one language all
+		     computer users know.");
+		 Debug.trace("Software never has bugs. It just
+		     develops random features.", 0);
+		 Debug.trace(18 + 4, Debug.LEVEL_ERROR);
+		 Debug.trace(Math.PI, Debug.LEVEL_WARN);</pre>
+		 </p>
+		 </div><a name="traceObj()"></a><a name="traceObj(Object,int,int)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">traceObj</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function traceObj(obj:Object, depth:int = 64, level:int = 1):void</code><p></p><p></p><p>
+		 Traces the specified Object, Array or Class recursively to Alcon's Trace
+		 logger. Optionally the recursion depth can be set with the depth argument.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">obj</span>:Object</code> &mdash;   The Object, Array or Class to output recursively.
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">depth</span>:int</code> (default = <code>64</code>)<code></code> &mdash; The recursion depth that is used to loop
+		               through the objects children.
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">level</span>:int</code> (default = <code>1</code>)<code></code> &mdash; The filter level with that the trace is made.
+		 </td></tr></table></p><br/><span class="label"> Example </span><br/>
+		 <p><pre>
+		 var array:Array = ["Gerry", "Gail", "Garth"];
+		 Debug.traceObj(array);
+		 var obj:Object = {n1: "Bill", n2: "Giles"};
+		 Debug.traceObj(obj, 64, Debug.LEVEL_DEBUG);
+		 Debug.traceObj(stage, 128);</pre>
+		 </p>
+		 </div><div class="detailSectionHeader">Constant Detail</div><a name="constantDetail"></a><a name="LEVEL_DEBUG"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">LEVEL_DEBUG</td><td class="detailHeaderType">Constant</td></tr></table><div class="detailBody"><code>public static const LEVEL_DEBUG:int = 0</code><p></p><p></p><p>
+		 The Debug.LEVEL_DEBUG constant defines the value of the Debug Filtering Level.
+		 </p></div><a name="constantDetail"></a><a name="LEVEL_ERROR"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">LEVEL_ERROR</td><td class="detailHeaderType">Constant</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code>public static const LEVEL_ERROR:int = 3</code><p></p><p></p><p>
+		 The Debug.LEVEL_ERROR constant defines the value of the Error Filtering Level.
+		 </p></div><a name="constantDetail"></a><a name="LEVEL_FATAL"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">LEVEL_FATAL</td><td class="detailHeaderType">Constant</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code>public static const LEVEL_FATAL:int = 4</code><p></p><p></p><p>
+		 The Debug.LEVEL_FATAL constant defines the value of the Fatal Filtering Level.
+		 </p></div><a name="constantDetail"></a><a name="LEVEL_INFO"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">LEVEL_INFO</td><td class="detailHeaderType">Constant</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code>public static const LEVEL_INFO:int = 1</code><p></p><p></p><p>
+		 The Debug.LEVEL_INFO constant defines the value of the Info Filtering Level.
+		 </p></div><a name="constantDetail"></a><a name="LEVEL_WARN"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">LEVEL_WARN</td><td class="detailHeaderType">Constant</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code>public static const LEVEL_WARN:int = 2</code><p></p><p></p><p>
+		 The Debug.LEVEL_WARN constant defines the value of the Warn Filtering Level.
+		 </p></div><br/><br/><hr><br/><p></p><center class="copyright"><footer></footer><br/>Tue Jan 4 2011, 03:53 PM +01:00  </center></div></body></html><!--<br/>Tue Jan 4 2011, 03:53 PM +01:00  -->

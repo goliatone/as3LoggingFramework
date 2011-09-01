@@ -1,0 +1,700 @@
+<report>
+  <scripts>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\loggers\DefaultLogger.as" mod="1314897102569" size="2503" optimizedsize="2418">
+      <def id="com.enjoymondays.logging.loggers:DefaultLogger" />
+      <pre id="com.enjoymondays.logging.core:ILogger" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="com.enjoymondays.logging.publishers:CompoundPublisher" />
+      <dep id="com.enjoymondays.logging.core:ILoggerManager" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="flash.utils:getTimer" />
+      <dep id="RegExp" />
+      <dep id="com.enjoymondays.logging.core:LogMessage" />
+      <dep id="com.enjoymondays.logging.plugins:StackTrace" />
+      <dep id="com.enjoymondays.logging.core:IDebugger" />
+      <dep id="com.enjoymondays.utils:fixArguments" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\CompoundPublisher.as" mod="1314892824888" size="1153" optimizedsize="1142">
+      <def id="com.enjoymondays.logging.publishers:CompoundPublisher" />
+      <pre id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\IStackTrace.as" mod="1314882716554" size="341" optimizedsize="341">
+      <def id="com.enjoymondays.logging.core:IStackTrace" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\LineNumberConverter.as" mod="1314882715994" size="450" optimizedsize="442">
+      <def id="com.enjoymondays.logging.formaters.converters:LineNumberConverter" />
+      <pre id="com.enjoymondays.logging.formaters.converters:AbstractLayouter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\TraceLogger.as" mod="1314889004882" size="434" optimizedsize="426">
+      <def id="com.enjoymondays.logging.publishers:TraceLogger" />
+      <pre id="com.enjoymondays.logging.publishers:AbstractPublisher" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\AlconLogger.as" mod="1314889046058" size="1269" optimizedsize="1220">
+      <def id="com.enjoymondays.logging.publishers:AlconLogger" />
+      <pre id="com.enjoymondays.logging.publishers:AbstractPublisher" />
+      <pre id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="com.hexagonstar.util.debug:Debug" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\utils\fixArguments.as" mod="1314897070241" size="230" optimizedsize="205">
+      <def id="com.enjoymondays.utils:fixArguments" />
+      <dep id="AS3" />
+      <dep id="Array" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILogLevel.as" mod="1314882716549" size="327" optimizedsize="327">
+      <def id="com.enjoymondays.logging.core:ILogLevel" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\config\LoggerConfig.as" mod="1314892172636" size="3060" optimizedsize="2996">
+      <def id="com.enjoymondays.logging.config:LoggerConfig" />
+      <pre id="com.enjoymondays.logging.core:ILoggerConfig" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.vos:LoggerFilterVO" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.vos:PublisherVO" />
+      <dep id="com.enjoymondays.logging.vos:PatternVO" />
+      <dep id="XML" />
+      <dep id="XMLList" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\managers\LoggerManager.as" mod="1314897102572" size="2692" optimizedsize="2634">
+      <def id="com.enjoymondays.logging.managers:LoggerManager" />
+      <pre id="com.enjoymondays.logging.core:ILoggerManager" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILogLevel" />
+      <dep id="com.enjoymondays.logging.vos:PublisherVO" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFilterManager" />
+      <dep id="com.enjoymondays.logging.core:ILogger" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="com.enjoymondays.logging.loggers:NullLogger" />
+      <dep id="com.enjoymondays.logging.debuggers:NullDebugger" />
+      <dep id="com.enjoymondays.logging.core:IDebugger" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="com.enjoymondays.logging.filters:LoggerFilterManager" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="com.enjoymondays.utils:fixArguments" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\AirLogger.as" mod="1314886360361" size="3087" optimizedsize="2975">
+      <def id="com.enjoymondays.logging.publishers:AirLogger" />
+      <pre id="com.enjoymondays.logging.publishers:AbstractPublisher" />
+      <pre id="flash.events:Event" />
+      <pre id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="flash.utils:clearInterval" />
+      <dep id="flash.utils:setInterval" />
+      <dep id="flash.net:LocalConnection" />
+      <dep id="Date" />
+      <dep id="AS3" />
+      <dep id="flash.events:StatusEvent" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="flash.events:SecurityErrorEvent" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+      <dep id="Error" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\AbstractPublisher.as" mod="1314892704503" size="897" optimizedsize="885">
+      <def id="com.enjoymondays.logging.publishers:AbstractPublisher" />
+      <pre id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\MethodConverter.as" mod="1314882715995" size="506" optimizedsize="494">
+      <def id="com.enjoymondays.logging.formaters.converters:MethodConverter" />
+      <pre id="com.enjoymondays.logging.formaters.converters:StackConverter" />
+      <dep id="com.enjoymondays.logging.formaters.converters:StackPart" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\FDTracer.as" mod="1314886380178" size="1166" optimizedsize="1089">
+      <def id="com.enjoymondays.logging.publishers:FDTracer" />
+      <pre id="com.enjoymondays.logging.publishers:AbstractPublisher" />
+      <pre id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="org.flashdevelop.utils:FlashConnect" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="org.flashdevelop.utils:TraceLevel" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILoggerConfig.as" mod="1314886307328" size="529" optimizedsize="529">
+      <def id="com.enjoymondays.logging.core:ILoggerConfig" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="XML" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\managers\NullLoggerManager.as" mod="1314890147565" size="887" optimizedsize="881">
+      <def id="com.enjoymondays.logging.managers:NullLoggerManager" />
+      <pre id="com.enjoymondays.logging.core:ILoggerManager" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILogLevel" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="com.enjoymondays.logging.core:ILogger" />
+      <dep id="com.enjoymondays.logging.loggers:NullLogger" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\filters\LoggerFilter.as" mod="1314889936891" size="1107" optimizedsize="1101">
+      <def id="com.enjoymondays.logging.filters:LoggerFilter" />
+      <pre id="com.enjoymondays.logging.core:ILoggerFilter" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILogLevel" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFilterManager" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\plugins\CacheLogger.as" mod="1314890091482" size="1306" optimizedsize="1276">
+      <def id="com.enjoymondays.logging.plugins:CacheLogger" />
+      <pre id="com.enjoymondays.logging.plugins:AbstractDebuggerPlugin" />
+      <dep id="flash.net:LocalConnection" />
+      <dep id="flash.system:System" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Timer" />
+      <dep id="com.enjoymondays.logging.plugins:GarbageWatchDogEvent" />
+      <dep id="Math" />
+      <dep id="com.enjoymondays.logging.plugins:GarbageWatchDog" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\StringFormater.as" mod="1314890146846" size="785" optimizedsize="771">
+      <def id="com.enjoymondays.logging.formaters:StringFormater" />
+      <pre id="com.enjoymondays.logging.formaters:AbstractFormater" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\FileConverter.as" mod="1314882715992" size="438" optimizedsize="430">
+      <def id="com.enjoymondays.logging.formaters.converters:FileConverter" />
+      <pre id="com.enjoymondays.logging.formaters.converters:AbstractLayouter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILoggerFilter.as" mod="1314882716555" size="386" optimizedsize="386">
+      <def id="com.enjoymondays.logging.core:ILoggerFilter" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILogLevel" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFilterManager" />
+    </script>
+    <script name="C:\Program Files (x86)\FlashDevelop\Library\AS3\classes\org\flashdevelop\utils\FlashConnect.as" mod="1291150214000" size="2314" optimizedsize="2145">
+      <def id="org.flashdevelop.utils:FlashConnect" />
+      <pre id="Object" />
+      <dep id="flash.net:XMLSocket" />
+      <dep id="flash.utils:clearInterval" />
+      <dep id="flash.utils:setInterval" />
+      <dep id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="flash.xml:XMLNode" />
+      <dep id="flash.events:DataEvent" />
+      <dep id="flash.xml:XMLDocument" />
+      <dep id="org.flashdevelop.utils:TraceLevel" />
+      <dep id="flash.events:SecurityErrorEvent" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\Logger.as" mod="1314892192220" size="1957" optimizedsize="1907">
+      <def id="com.enjoymondays.logging:Logger" />
+      <pre id="com.enjoymondays.logging.core:ILoggerFactory" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:IPublisherVO" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="com.enjoymondays.logging.core:ILoggerManager" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="com.enjoymondays.logging.core:ILogger" />
+      <dep id="XML" />
+      <dep id="com.enjoymondays.logging.core:ILoggerConfig" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\loggers\NullLogger.as" mod="1314882716070" size="1160" optimizedsize="1138">
+      <def id="com.enjoymondays.logging.loggers:NullLogger" />
+      <pre id="com.enjoymondays.logging.core:ILogger" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="com.enjoymondays.logging.core:ILoggerManager" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="com.enjoymondays.logging.core:IDebugger" />
+      <dep id="com.enjoymondays.logging.debuggers:NullDebugger" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\vos\LoggerFilterVO.as" mod="1314882716247" size="414" optimizedsize="408">
+      <def id="com.enjoymondays.logging.vos:LoggerFilterVO" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILoggerPublisher.as" mod="1314892236860" size="440" optimizedsize="440">
+      <def id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\IDebugger.as" mod="1314882716554" size="386" optimizedsize="386">
+      <def id="com.enjoymondays.logging.core:IDebugger" />
+      <pre id="Object" />
+      <pre id="com.enjoymondays.logging.core:IDebuggerPlugin" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\vos\PublisherVO.as" mod="1314892143831" size="1031" optimizedsize="1025">
+      <def id="com.enjoymondays.logging.vos:PublisherVO" />
+      <pre id="com.enjoymondays.logging.core:IPublisherVO" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="XML" />
+    </script>
+    <script name="D:\DEV\CLASSES\CLASSES AS3\com\hexagonstar\util\debug\StopWatch.as" mod="1307900659305" size="1271" optimizedsize="1226">
+      <def id="com.hexagonstar.util.debug:StopWatch" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.utils:getTimer" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILoggerFormatter.as" mod="1314882716558" size="356" optimizedsize="356">
+      <def id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\LevelConverter.as" mod="1314882715990" size="556" optimizedsize="550">
+      <def id="com.enjoymondays.logging.formaters.converters:LevelConverter" />
+      <pre id="com.enjoymondays.logging.formaters.converters:AbstractLayouter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\SGRemoteLogger.as" mod="1314888976048" size="1427" optimizedsize="1372">
+      <def id="com.enjoymondays.logging.publishers:SGRemoteLogger" />
+      <pre id="com.enjoymondays.logging.publishers:AbstractPublisher" />
+      <pre id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.net:URLRequest" />
+      <dep id="AS3" />
+      <dep id="flash.net:URLVariables" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="flash.net:URLLoader" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\FirebugLogger.as" mod="1314882715507" size="1066" optimizedsize="1008">
+      <def id="com.enjoymondays.logging.publishers:FirebugLogger" />
+      <pre id="com.enjoymondays.logging.publishers:AbstractPublisher" />
+      <dep id="AS3" />
+      <dep id="flash.external:ExternalInterface" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\IPublisherVO.as" mod="1314892098424" size="492" optimizedsize="492">
+      <def id="com.enjoymondays.logging.core:IPublisherVO" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="XML" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILoggerManager.as" mod="1314882716550" size="595" optimizedsize="595">
+      <def id="com.enjoymondays.logging.core:ILoggerManager" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILogLevel" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="com.enjoymondays.logging.core:ILogger" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\plugins\StackTrace.as" mod="1314890129111" size="1615" optimizedsize="1579">
+      <def id="com.enjoymondays.logging.plugins:StackTrace" />
+      <pre id="com.enjoymondays.logging.core:IStackTrace" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.system:Capabilities" />
+      <dep id="Error" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\LoggerPackageConverter.as" mod="1314882715991" size="639" optimizedsize="633">
+      <def id="com.enjoymondays.logging.formaters.converters:LoggerPackageConverter" />
+      <pre id="com.enjoymondays.logging.formaters.converters:AbstractLayouter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILoggerFilterManager.as" mod="1314882716553" size="368" optimizedsize="368">
+      <def id="com.enjoymondays.logging.core:ILoggerFilterManager" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILogLevel" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFilter" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\AbstractLayouter.as" mod="1314882715993" size="544" optimizedsize="538">
+      <def id="com.enjoymondays.logging.formaters.converters:AbstractLayouter" />
+      <pre id="com.enjoymondays.logging.core:ILogMessageConverter" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\debuggers\DefaultDebugger.as" mod="1314890144686" size="1025" optimizedsize="1013">
+      <def id="com.enjoymondays.logging.debuggers:DefaultDebugger" />
+      <pre id="Object" />
+      <pre id="com.enjoymondays.logging.core:IDebugger" />
+      <dep id="com.enjoymondays.logging.plugins:CacheLogger" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.plugins:StopWatchLogger" />
+      <dep id="com.enjoymondays.logging.core:ILogger" />
+      <dep id="com.enjoymondays.logging.plugins:ObjectDumper" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILogMessageConverter.as" mod="1314882716551" size="281" optimizedsize="281">
+      <def id="com.enjoymondays.logging.core:ILogMessageConverter" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\JSFLTraceTarget.as" mod="1314882715508" size="504" optimizedsize="493">
+      <def id="com.enjoymondays.logging.publishers:JSFLTraceTarget" />
+      <pre id="com.enjoymondays.logging.publishers:AbstractPublisher" />
+      <dep id="adobe.utils:MMExecute" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\plugins\AbstractDebuggerPlugin.as" mod="1314882715673" size="360" optimizedsize="354">
+      <def id="com.enjoymondays.logging.plugins:AbstractDebuggerPlugin" />
+      <pre id="Object" />
+      <pre id="com.enjoymondays.logging.core:IDebuggerPlugin" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogger" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\DateConverter.as" mod="1314889088239" size="712" optimizedsize="701">
+      <def id="com.enjoymondays.logging.formaters.converters:DateConverter" />
+      <pre id="com.enjoymondays.logging.formaters.converters:AbstractLayouter" />
+      <dep id="Date" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.utils:DateUtils" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILogMessage.as" mod="1314882716556" size="484" optimizedsize="484">
+      <def id="com.enjoymondays.logging.core:ILogMessage" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:IStackTrace" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+    </script>
+    <script name="D:\DEV\CLASSES\CLASSES AS3\com\hexagonstar\util\debug\Debug.as" mod="1308051463538" size="3668" optimizedsize="3460">
+      <def id="com.hexagonstar.util.debug:Debug" />
+      <pre id="Object" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.system:SecurityPanel" />
+      <dep id="flash.net:SharedObjectFlushStatus" />
+      <dep id="flash.system:System" />
+      <dep id="flash.net:LocalConnection" />
+      <dep id="flash.utils:describeType" />
+      <dep id="flash.net:SharedObject" />
+      <dep id="flash.system:Security" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="com.hexagonstar.util.debug:FPSMeter" />
+      <dep id="Error" />
+      <dep id="com.hexagonstar.util.debug:StopWatch" />
+      <dep id="AS3" />
+      <dep id="flash.system:Capabilities" />
+      <dep id="flash.events:StatusEvent" />
+      <dep id="XML" />
+      <dep id="flash.display:Stage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\plugins\GarbageWatchDog.as" mod="1314882715673" size="785" optimizedsize="746">
+      <def id="com.enjoymondays.logging.plugins:GarbageWatchDog" />
+      <pre id="flash.events:EventDispatcher" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Timer" />
+      <dep id="com.enjoymondays.logging.plugins:GarbageWatchDogEvent" />
+      <dep id="flash.events:TimerEvent" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\PatternFormater.as" mod="1314890146468" size="2386" optimizedsize="2250">
+      <def id="com.enjoymondays.logging.formaters:PatternFormater" />
+      <pre id="com.enjoymondays.logging.formaters:AbstractFormater" />
+      <dep id="com.enjoymondays.logging.vos:FormatLayoutVO" />
+      <dep id="com.enjoymondays.logging.core:ILogMessageConverter" />
+      <dep id="com.enjoymondays.logging.formaters.converters:FileConverter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.formaters.converters:LevelConverter" />
+      <dep id="com.enjoymondays.logging.formaters.converters:ClassConverter" />
+      <dep id="RegExp" />
+      <dep id="com.enjoymondays.logging.formaters.converters:MethodConverter" />
+      <dep id="com.enjoymondays.logging.formaters.converters:DateConverter" />
+      <dep id="com.enjoymondays.logging.formaters.converters:MessageConverter" />
+      <dep id="com.enjoymondays.logging.formaters.converters:LineNumberConverter" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\SOSMaxLogger.as" mod="1314889019244" size="1440" optimizedsize="1403">
+      <def id="com.enjoymondays.logging.publishers:SOSMaxLogger" />
+      <pre id="com.enjoymondays.logging.publishers:AbstractPublisher" />
+      <pre id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="flash.net:XMLSocket" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+      <dep id="Error" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILoggerFactory.as" mod="1314883072111" size="205" optimizedsize="204">
+      <def id="com.enjoymondays.logging.core:ILoggerFactory" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogger" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\MessageConverter.as" mod="1314882715996" size="447" optimizedsize="439">
+      <def id="com.enjoymondays.logging.formaters.converters:MessageConverter" />
+      <pre id="com.enjoymondays.logging.formaters.converters:AbstractLayouter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\StackPart.as" mod="1314882715996" size="374" optimizedsize="368">
+      <def id="com.enjoymondays.logging.formaters.converters:StackPart" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\ILogger.as" mod="1314883657052" size="624" optimizedsize="624">
+      <def id="com.enjoymondays.logging.core:ILogger" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <dep id="com.enjoymondays.logging.core:ILoggerManager" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="com.enjoymondays.logging.core:IDebugger" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\IDebuggerPlugin.as" mod="1314882716559" size="217" optimizedsize="217">
+      <def id="com.enjoymondays.logging.core:IDebuggerPlugin" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogger" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\plugins\GarbageWatchDogEvent.as" mod="1314882715674" size="601" optimizedsize="589">
+      <def id="com.enjoymondays.logging.plugins:GarbageWatchDogEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\publishers\ArthropodLogger.as" mod="1314882715505" size="308" optimizedsize="300">
+      <def id="com.enjoymondays.logging.publishers:ArthropodLogger" />
+      <pre id="com.enjoymondays.logging.publishers:AbstractPublisher" />
+      <pre id="com.enjoymondays.logging.core:ILoggerPublisher" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\vos\PatternVO.as" mod="1314882716246" size="393" optimizedsize="387">
+      <def id="com.enjoymondays.logging.vos:PatternVO" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Program Files (x86)\FlashDevelop\Library\AS3\classes\org\flashdevelop\utils\TraceLevel.as" mod="1291150214000" size="311" optimizedsize="305">
+      <def id="org.flashdevelop.utils:TraceLevel" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\LogLevel.as" mod="1314882716557" size="1019" optimizedsize="993">
+      <def id="com.enjoymondays.logging.core:LogLevel" />
+      <pre id="com.enjoymondays.logging.core:ILogLevel" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\core\LogMessage.as" mod="1314882716551" size="1064" optimizedsize="1055">
+      <def id="com.enjoymondays.logging.core:LogMessage" />
+      <pre id="com.enjoymondays.logging.core:ILogMessage" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:IStackTrace" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\debuggers\NullDebugger.as" mod="1314882716164" size="591" optimizedsize="585">
+      <def id="com.enjoymondays.logging.debuggers:NullDebugger" />
+      <pre id="Object" />
+      <pre id="com.enjoymondays.logging.core:IDebugger" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogger" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\plugins\ObjectDumper.as" mod="1314897102575" size="1686" optimizedsize="1615">
+      <def id="com.enjoymondays.logging.plugins:ObjectDumper" />
+      <pre id="com.enjoymondays.logging.plugins:AbstractDebuggerPlugin" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="com.enjoymondays.utils:fixArguments" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\ClassConverter.as" mod="1314882715988" size="547" optimizedsize="539">
+      <def id="com.enjoymondays.logging.formaters.converters:ClassConverter" />
+      <pre id="com.enjoymondays.logging.formaters.converters:AbstractLayouter" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\plugins\StopWatchLogger.as" mod="1314886595344" size="582" optimizedsize="570">
+      <def id="com.enjoymondays.logging.plugins:StopWatchLogger" />
+      <pre id="com.enjoymondays.logging.plugins:AbstractDebuggerPlugin" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.utils:StopWatch" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\AbstractFormater.as" mod="1314897102563" size="1107" optimizedsize="1075">
+      <def id="com.enjoymondays.logging.formaters:AbstractFormater" />
+      <pre id="com.enjoymondays.logging.core:ILoggerFormatter" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.vos:PatternVO" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+      <dep id="com.enjoymondays.utils:fixArguments" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\utils\StopWatch.as" mod="1314886552321" size="1279" optimizedsize="1234">
+      <def id="com.enjoymondays.logging.utils:StopWatch" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.utils:getTimer" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\LoggerShell.as" mod="1314882716818" size="281" optimizedsize="265">
+      <def id="LoggerShell" />
+      <pre id="flash.display:Sprite" />
+      <dep id="com.enjoymondays.logging.formaters.converters:StackPart" />
+      <dep id="com.enjoymondays.logging.managers:NullLoggerManager" />
+      <dep id="com.enjoymondays.logging.vos:PublisherVO" />
+      <dep id="com.enjoymondays.logging.formaters:StringFormater" />
+      <dep id="com.enjoymondays.logging.formaters.converters:LoggerPackageConverter" />
+      <dep id="com.enjoymondays.logging.loggers:NullLogger" />
+      <dep id="com.enjoymondays.logging.plugins:GarbageWatchDogEvent" />
+      <dep id="com.enjoymondays.logging.publishers:FDTracer" />
+      <dep id="com.enjoymondays.logging.formaters.converters:DateConverter" />
+      <dep id="com.enjoymondays.logging.plugins:GarbageWatchDog" />
+      <dep id="com.enjoymondays.logging.plugins:ObjectDumper" />
+      <dep id="com.enjoymondays.logging.debuggers:NullDebugger" />
+      <dep id="com.enjoymondays.logging.publishers:SGRemoteLogger" />
+      <dep id="com.enjoymondays.logging.publishers:ArthropodLogger" />
+      <dep id="com.enjoymondays.logging.filters:LoggerFilterManager" />
+      <dep id="com.enjoymondays.logging:Logger" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.formaters.converters:LevelConverter" />
+      <dep id="com.enjoymondays.logging.debuggers:DefaultDebugger" />
+      <dep id="com.enjoymondays.logging.plugins:StopWatchLogger" />
+      <dep id="com.enjoymondays.logging.formaters.converters:ClassConverter" />
+      <dep id="com.enjoymondays.logging.publishers:SOSMaxLogger" />
+      <dep id="com.enjoymondays.logging.formaters.converters:MessageConverter" />
+      <dep id="com.enjoymondays.logging.formaters:XMLFormater" />
+      <dep id="com.enjoymondays.logging.publishers:JSFLTraceTarget" />
+      <dep id="com.enjoymondays.logging.publishers:CompoundPublisher" />
+      <dep id="com.enjoymondays.logging.formaters.converters:StackConverter" />
+      <dep id="com.enjoymondays.logging.publishers:AlconLogger" />
+      <dep id="com.enjoymondays.logging.plugins:CacheLogger" />
+      <dep id="com.enjoymondays.logging.vos:PatternVO" />
+      <dep id="com.enjoymondays.logging.publishers:TraceLogger" />
+      <dep id="com.enjoymondays.logging.vos:LoggerFilterVO" />
+      <dep id="com.enjoymondays.logging.formaters.converters:FileConverter" />
+      <dep id="com.enjoymondays.logging.publishers:AirLogger" />
+      <dep id="com.enjoymondays.logging.config:LoggerConfig" />
+      <dep id="com.enjoymondays.logging.managers:LoggerManager" />
+      <dep id="com.enjoymondays.logging.filters:LoggerFilter" />
+      <dep id="com.enjoymondays.logging.formaters:PatternFormater" />
+      <dep id="com.enjoymondays.logging.plugins:StackTrace" />
+      <dep id="com.enjoymondays.logging.loggers:DefaultLogger" />
+      <dep id="com.enjoymondays.logging.formaters.converters:LineNumberConverter" />
+      <dep id="com.enjoymondays.logging.publishers:FirebugLogger" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\vos\FormatLayoutVO.as" mod="1314882716249" size="338" optimizedsize="332">
+      <def id="com.enjoymondays.logging.vos:FormatLayoutVO" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILogMessageConverter" />
+      <dep id="AS3" />
+      <dep id="RegExp" />
+    </script>
+    <script name="D:\DEV\CLASSES\CLASSES AS3\com\hexagonstar\util\debug\FPSMeter.as" mod="1307900659305" size="1100" optimizedsize="1074">
+      <def id="com.hexagonstar.util.debug:FPSMeter" />
+      <pre id="flash.events:EventDispatcher" />
+      <dep id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Timer" />
+      <dep id="flash.events:TimerEvent" />
+      <dep id="flash.display:Stage" />
+      <dep id="flash.utils:getTimer" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\XMLFormater.as" mod="1314882716009" size="651" optimizedsize="628">
+      <def id="com.enjoymondays.logging.formaters:XMLFormater" />
+      <pre id="com.enjoymondays.logging.formaters:AbstractFormater" />
+      <dep id="AS3" />
+      <dep id="XML" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\utils\DateUtils.as" mod="1314888997079" size="6009" optimizedsize="5936">
+      <def id="com.enjoymondays.logging.utils:DateUtils" />
+      <pre id="Object" />
+      <dep id="Date" />
+      <dep id="AS3" />
+      <dep id="Math" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\filters\LoggerFilterManager.as" mod="1314890005674" size="1052" optimizedsize="1016">
+      <def id="com.enjoymondays.logging.filters:LoggerFilterManager" />
+      <pre id="com.enjoymondays.logging.core:ILoggerFilterManager" />
+      <pre id="Object" />
+      <dep id="com.enjoymondays.logging.core:ILogLevel" />
+      <dep id="AS3" />
+      <dep id="com.enjoymondays.logging.filters:LoggerFilter" />
+      <dep id="com.enjoymondays.logging.core:LogLevel" />
+      <dep id="com.enjoymondays.logging.core:ILoggerFilter" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="D:\DEV\AS3\gLogger\src\com\enjoymondays\logging\formaters\converters\StackConverter.as" mod="1314882715989" size="510" optimizedsize="502">
+      <def id="com.enjoymondays.logging.formaters.converters:StackConverter" />
+      <pre id="com.enjoymondays.logging.formaters.converters:AbstractLayouter" />
+      <dep id="AS3" />
+      <dep id="RegExp" />
+      <dep id="com.enjoymondays.logging.core:ILogMessage" />
+    </script>
+  </scripts>
+  <external-defs>
+    <ext id="flash.system:System" />
+    <ext id="flash.utils:ByteArray" />
+    <ext id="Array" />
+    <ext id="Math" />
+    <ext id="RegExp" />
+    <ext id="flash.system:ApplicationDomain" />
+    <ext id="flash.xml:XMLDocument" />
+    <ext id="XMLList" />
+    <ext id="flash.utils:setInterval" />
+    <ext id="flash.events:Event" />
+    <ext id="AS3" />
+    <ext id="flash.utils:describeType" />
+    <ext id="flash.net:LocalConnection" />
+    <ext id="flash.net:URLRequest" />
+    <ext id="flash.events:IOErrorEvent" />
+    <ext id="XML" />
+    <ext id="flash.system:Capabilities" />
+    <ext id="flash.utils:Dictionary" />
+    <ext id="flash.net:SharedObject" />
+    <ext id="Error" />
+    <ext id="flash.events:EventDispatcher" />
+    <ext id="flash.external:ExternalInterface" />
+    <ext id="flash.utils:clearInterval" />
+    <ext id="Date" />
+    <ext id="flash.events:StatusEvent" />
+    <ext id="flash.events:SecurityErrorEvent" />
+    <ext id="flash.display:DisplayObject" />
+    <ext id="flash.events:DataEvent" />
+    <ext id="flash.net:XMLSocket" />
+    <ext id="flash.net:URLLoader" />
+    <ext id="Object" />
+    <ext id="flash.utils:Timer" />
+    <ext id="flash.system:SecurityPanel" />
+    <ext id="flash.net:URLVariables" />
+    <ext id="flash.display:DisplayObjectContainer" />
+    <ext id="flash.events:TimerEvent" />
+    <ext id="flash.xml:XMLNode" />
+    <ext id="flash.display:Sprite" />
+    <ext id="flash.display:Stage" />
+    <ext id="flash.system:Security" />
+    <ext id="flash.utils:getQualifiedClassName" />
+    <ext id="adobe.utils:MMExecute" />
+    <ext id="flash.net:SharedObjectFlushStatus" />
+    <ext id="flash.utils:getTimer" />
+  </external-defs>
+</report>

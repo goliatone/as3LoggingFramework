@@ -1,0 +1,731 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<toc label="gLogger">
+  <topic label="All Classes" href="class-summary.html">
+    <topic label="AbstractFormater" href="com/enjoymondays/logging/formaters/AbstractFormater.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/AbstractFormater.html#propertySummary">
+        <topic label="defaultPattern" href="com/enjoymondays/logging/formaters/AbstractFormater.html#defaultPattern" />
+      </topic>
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/AbstractFormater.html#protectedPropertySummary">
+        <topic label="_patterns" href="com/enjoymondays/logging/formaters/AbstractFormater.html#_patterns" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/AbstractFormater.html#methodSummary">
+        <topic label="AbstractFormater" href="com/enjoymondays/logging/formaters/AbstractFormater.html#AbstractFormater()" />
+        <topic label="format" href="com/enjoymondays/logging/formaters/AbstractFormater.html#format()" />
+        <topic label="getPatternFor" href="com/enjoymondays/logging/formaters/AbstractFormater.html#getPatternFor()" />
+        <topic label="isStackNeeded" href="com/enjoymondays/logging/formaters/AbstractFormater.html#isStackNeeded()" />
+        <topic label="setLevelPatterns" href="com/enjoymondays/logging/formaters/AbstractFormater.html#setLevelPatterns()" />
+      </topic>
+      <topic label="Public Constants" href="com/enjoymondays/logging/formaters/AbstractFormater.html#constantSummary">
+        <topic label="DEFAULT_PATTERN" href="com/enjoymondays/logging/formaters/AbstractFormater.html#DEFAULT_PATTERN" />
+      </topic>
+    </topic>
+    <topic label="AbstractLayouter" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#propertySummary">
+        <topic label="id" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#id" />
+        <topic label="options" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#options" />
+      </topic>
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#protectedPropertySummary">
+        <topic label="_id" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#_id" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#methodSummary">
+        <topic label="AbstractLayouter" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#AbstractLayouter()" />
+        <topic label="convert" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#convert()" />
+      </topic>
+    </topic>
+    <topic label="ClassConverter" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#propertySummary">
+        <topic label="id" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#id" />
+        <topic label="options" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#options" />
+      </topic>
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#protectedPropertySummary" />
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#methodSummary">
+        <topic label="ClassConverter" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#ClassConverter()" />
+        <topic label="convert" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#convert()" />
+      </topic>
+    </topic>
+    <topic label="DateConverter" href="com/enjoymondays/logging/formaters/converters/DateConverter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#propertySummary">
+        <topic label="id" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#id" />
+        <topic label="options" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#options" />
+      </topic>
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#protectedPropertySummary" />
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#methodSummary">
+        <topic label="DateConverter" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#DateConverter()" />
+        <topic label="convert" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#convert()" />
+      </topic>
+    </topic>
+    <topic label="DateUtils" href="com/enjoymondays/logging/utils/DateUtils.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/utils/DateUtils.html#propertySummary">
+        <topic label="days" href="com/enjoymondays/logging/utils/DateUtils.html#days" />
+        <topic label="months" href="com/enjoymondays/logging/utils/DateUtils.html#months" />
+        <topic label="shortdays" href="com/enjoymondays/logging/utils/DateUtils.html#shortdays" />
+        <topic label="shortmonths" href="com/enjoymondays/logging/utils/DateUtils.html#shortmonths" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/utils/DateUtils.html#methodSummary">
+        <topic label="DateUtils" href="com/enjoymondays/logging/utils/DateUtils.html#DateUtils()" />
+        <topic label="daysToHours" href="com/enjoymondays/logging/utils/DateUtils.html#daysToHours()" />
+        <topic label="daysToMilliseconds" href="com/enjoymondays/logging/utils/DateUtils.html#daysToMilliseconds()" />
+        <topic label="daysToMinutes" href="com/enjoymondays/logging/utils/DateUtils.html#daysToMinutes()" />
+        <topic label="daysToSeconds" href="com/enjoymondays/logging/utils/DateUtils.html#daysToSeconds()" />
+        <topic label="formatDate" href="com/enjoymondays/logging/utils/DateUtils.html#formatDate()" />
+        <topic label="fromString" href="com/enjoymondays/logging/utils/DateUtils.html#fromString()" />
+        <topic label="getDay" href="com/enjoymondays/logging/utils/DateUtils.html#getDay()" />
+        <topic label="getDayAbbrAsString" href="com/enjoymondays/logging/utils/DateUtils.html#getDayAbbrAsString()" />
+        <topic label="getDayAsString" href="com/enjoymondays/logging/utils/DateUtils.html#getDayAsString()" />
+        <topic label="getDayOfTheYear" href="com/enjoymondays/logging/utils/DateUtils.html#getDayOfTheYear()" />
+        <topic label="getDaysInMonth" href="com/enjoymondays/logging/utils/DateUtils.html#getDaysInMonth()" />
+        <topic label="getDifferenceFromUTCInHours" href="com/enjoymondays/logging/utils/DateUtils.html#getDifferenceFromUTCInHours()" />
+        <topic label="getDifferenceFromUTCInSeconds" href="com/enjoymondays/logging/utils/DateUtils.html#getDifferenceFromUTCInSeconds()" />
+        <topic label="getFormattedDifferenceFromUTC" href="com/enjoymondays/logging/utils/DateUtils.html#getFormattedDifferenceFromUTC()" />
+        <topic label="getInternetTime" href="com/enjoymondays/logging/utils/DateUtils.html#getInternetTime()" />
+        <topic label="getMeridiem" href="com/enjoymondays/logging/utils/DateUtils.html#getMeridiem()" />
+        <topic label="getMonth" href="com/enjoymondays/logging/utils/DateUtils.html#getMonth()" />
+        <topic label="getMonthAbbrAsString" href="com/enjoymondays/logging/utils/DateUtils.html#getMonthAbbrAsString()" />
+        <topic label="getMonthAsString" href="com/enjoymondays/logging/utils/DateUtils.html#getMonthAsString()" />
+        <topic label="getShortMonth" href="com/enjoymondays/logging/utils/DateUtils.html#getShortMonth()" />
+        <topic label="getTimeBetween" href="com/enjoymondays/logging/utils/DateUtils.html#getTimeBetween()" />
+        <topic label="getTimezone" href="com/enjoymondays/logging/utils/DateUtils.html#getTimezone()" />
+        <topic label="getWeekOfTheYear" href="com/enjoymondays/logging/utils/DateUtils.html#getWeekOfTheYear()" />
+        <topic label="hoursToDays" href="com/enjoymondays/logging/utils/DateUtils.html#hoursToDays()" />
+        <topic label="hoursToMilliseconds" href="com/enjoymondays/logging/utils/DateUtils.html#hoursToMilliseconds()" />
+        <topic label="hoursToMinutes" href="com/enjoymondays/logging/utils/DateUtils.html#hoursToMinutes()" />
+        <topic label="hoursToSeconds" href="com/enjoymondays/logging/utils/DateUtils.html#hoursToSeconds()" />
+        <topic label="isDaylightSavings" href="com/enjoymondays/logging/utils/DateUtils.html#isDaylightSavings()" />
+        <topic label="isLeapYear" href="com/enjoymondays/logging/utils/DateUtils.html#isLeapYear()" />
+        <topic label="millisecondsToDays" href="com/enjoymondays/logging/utils/DateUtils.html#millisecondsToDays()" />
+        <topic label="millisecondsToHours" href="com/enjoymondays/logging/utils/DateUtils.html#millisecondsToHours()" />
+        <topic label="millisecondsToMinutes" href="com/enjoymondays/logging/utils/DateUtils.html#millisecondsToMinutes()" />
+        <topic label="millisecondsToSeconds" href="com/enjoymondays/logging/utils/DateUtils.html#millisecondsToSeconds()" />
+        <topic label="minutesToDays" href="com/enjoymondays/logging/utils/DateUtils.html#minutesToDays()" />
+        <topic label="minutesToHours" href="com/enjoymondays/logging/utils/DateUtils.html#minutesToHours()" />
+        <topic label="minutesToMilliseconds" href="com/enjoymondays/logging/utils/DateUtils.html#minutesToMilliseconds()" />
+        <topic label="minutesToSeconds" href="com/enjoymondays/logging/utils/DateUtils.html#minutesToSeconds()" />
+        <topic label="secondsToDays" href="com/enjoymondays/logging/utils/DateUtils.html#secondsToDays()" />
+        <topic label="secondsToHours" href="com/enjoymondays/logging/utils/DateUtils.html#secondsToHours()" />
+        <topic label="secondsToMilliseconds" href="com/enjoymondays/logging/utils/DateUtils.html#secondsToMilliseconds()" />
+        <topic label="secondsToMinutes" href="com/enjoymondays/logging/utils/DateUtils.html#secondsToMinutes()" />
+      </topic>
+    </topic>
+    <topic label="FileConverter" href="com/enjoymondays/logging/formaters/converters/FileConverter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#propertySummary">
+        <topic label="id" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#id" />
+      </topic>
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#protectedPropertySummary" />
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#methodSummary">
+        <topic label="FileConverter" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#FileConverter()" />
+        <topic label="convert" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#convert()" />
+      </topic>
+    </topic>
+    <topic label="FormatLayoutVO" href="com/enjoymondays/logging/vos/FormatLayoutVO.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#propertySummary">
+        <topic label="converter" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#converter" />
+        <topic label="matchPattern" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#matchPattern" />
+        <topic label="replacePattern" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#replacePattern" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#methodSummary">
+        <topic label="FormatLayoutVO" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#FormatLayoutVO()" />
+      </topic>
+    </topic>
+    <topic label="FormatterTest" href="./FormatterTest.html">
+      <topic label="Public Methods" href="./FormatterTest.html#methodSummary">
+        <topic label="FormatterTest" href="./FormatterTest.html#FormatterTest()" />
+      </topic>
+    </topic>
+    <topic label="ILoggerFormatter" href="com/enjoymondays/logging/core/ILoggerFormatter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/core/ILoggerFormatter.html#propertySummary">
+        <topic label="defaultPattern" href="com/enjoymondays/logging/core/ILoggerFormatter.html#defaultPattern" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/core/ILoggerFormatter.html#methodSummary">
+        <topic label="format" href="com/enjoymondays/logging/core/ILoggerFormatter.html#format()" />
+        <topic label="getPatternFor" href="com/enjoymondays/logging/core/ILoggerFormatter.html#getPatternFor()" />
+        <topic label="isStackNeeded" href="com/enjoymondays/logging/core/ILoggerFormatter.html#isStackNeeded()" />
+        <topic label="setLevelPatterns" href="com/enjoymondays/logging/core/ILoggerFormatter.html#setLevelPatterns()" />
+      </topic>
+    </topic>
+    <topic label="ILogLevel" href="com/enjoymondays/logging/core/ILogLevel.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/core/ILogLevel.html#propertySummary">
+        <topic label="name" href="com/enjoymondays/logging/core/ILogLevel.html#name" />
+        <topic label="value" href="com/enjoymondays/logging/core/ILogLevel.html#value" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/core/ILogLevel.html#methodSummary">
+        <topic label="equalTo" href="com/enjoymondays/logging/core/ILogLevel.html#equalTo()" />
+        <topic label="filters" href="com/enjoymondays/logging/core/ILogLevel.html#filters()" />
+        <topic label="passes" href="com/enjoymondays/logging/core/ILogLevel.html#passes()" />
+        <topic label="toString" href="com/enjoymondays/logging/core/ILogLevel.html#toString()" />
+        <topic label="valueOf" href="com/enjoymondays/logging/core/ILogLevel.html#valueOf()" />
+      </topic>
+    </topic>
+    <topic label="ILogMessage" href="com/enjoymondays/logging/core/ILogMessage.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/core/ILogMessage.html#propertySummary">
+        <topic label="className" href="com/enjoymondays/logging/core/ILogMessage.html#className" />
+        <topic label="file" href="com/enjoymondays/logging/core/ILogMessage.html#file" />
+        <topic label="level" href="com/enjoymondays/logging/core/ILogMessage.html#level" />
+        <topic label="line" href="com/enjoymondays/logging/core/ILogMessage.html#line" />
+        <topic label="logger" href="com/enjoymondays/logging/core/ILogMessage.html#logger" />
+        <topic label="message" href="com/enjoymondays/logging/core/ILogMessage.html#message" />
+        <topic label="methodName" href="com/enjoymondays/logging/core/ILogMessage.html#methodName" />
+        <topic label="object" href="com/enjoymondays/logging/core/ILogMessage.html#object" />
+        <topic label="stackTrace" href="com/enjoymondays/logging/core/ILogMessage.html#stackTrace" />
+        <topic label="timestamp" href="com/enjoymondays/logging/core/ILogMessage.html#timestamp" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/core/ILogMessage.html#methodSummary">
+        <topic label="clone" href="com/enjoymondays/logging/core/ILogMessage.html#clone()" />
+      </topic>
+    </topic>
+    <topic label="ILogMessageConverter" href="com/enjoymondays/logging/core/ILogMessageConverter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/core/ILogMessageConverter.html#propertySummary">
+        <topic label="id" href="com/enjoymondays/logging/core/ILogMessageConverter.html#id" />
+        <topic label="options" href="com/enjoymondays/logging/core/ILogMessageConverter.html#options" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/core/ILogMessageConverter.html#methodSummary">
+        <topic label="convert" href="com/enjoymondays/logging/core/ILogMessageConverter.html#convert()" />
+      </topic>
+    </topic>
+    <topic label="IStackTrace" href="com/enjoymondays/logging/core/IStackTrace.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/core/IStackTrace.html#propertySummary">
+        <topic label="className" href="com/enjoymondays/logging/core/IStackTrace.html#className" />
+        <topic label="file" href="com/enjoymondays/logging/core/IStackTrace.html#file" />
+        <topic label="line" href="com/enjoymondays/logging/core/IStackTrace.html#line" />
+        <topic label="methodName" href="com/enjoymondays/logging/core/IStackTrace.html#methodName" />
+        <topic label="raw" href="com/enjoymondays/logging/core/IStackTrace.html#raw" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/core/IStackTrace.html#methodSummary">
+        <topic label="toString" href="com/enjoymondays/logging/core/IStackTrace.html#toString()" />
+      </topic>
+    </topic>
+    <topic label="LevelConverter" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#propertySummary">
+        <topic label="id" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#id" />
+        <topic label="options" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#options" />
+      </topic>
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#protectedPropertySummary" />
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#methodSummary">
+        <topic label="LevelConverter" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#LevelConverter()" />
+        <topic label="convert" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#convert()" />
+      </topic>
+    </topic>
+    <topic label="LineNumberConverter" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#propertySummary">
+        <topic label="id" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#id" />
+      </topic>
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#protectedPropertySummary" />
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#methodSummary">
+        <topic label="LineNumberConverter" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#LineNumberConverter()" />
+        <topic label="convert" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#convert()" />
+      </topic>
+    </topic>
+    <topic label="LogLevel" href="com/enjoymondays/logging/core/LogLevel.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/core/LogLevel.html#propertySummary">
+        <topic label="ALL" href="com/enjoymondays/logging/core/LogLevel.html#ALL" />
+        <topic label="DEBUG" href="com/enjoymondays/logging/core/LogLevel.html#DEBUG" />
+        <topic label="ERROR" href="com/enjoymondays/logging/core/LogLevel.html#ERROR" />
+        <topic label="FATAL" href="com/enjoymondays/logging/core/LogLevel.html#FATAL" />
+        <topic label="INFO" href="com/enjoymondays/logging/core/LogLevel.html#INFO" />
+        <topic label="LOG" href="com/enjoymondays/logging/core/LogLevel.html#LOG" />
+        <topic label="name" href="com/enjoymondays/logging/core/LogLevel.html#name" />
+        <topic label="OFF" href="com/enjoymondays/logging/core/LogLevel.html#OFF" />
+        <topic label="value" href="com/enjoymondays/logging/core/LogLevel.html#value" />
+        <topic label="WARN" href="com/enjoymondays/logging/core/LogLevel.html#WARN" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/core/LogLevel.html#methodSummary">
+        <topic label="LogLevel" href="com/enjoymondays/logging/core/LogLevel.html#LogLevel()" />
+        <topic label="equalTo" href="com/enjoymondays/logging/core/LogLevel.html#equalTo()" />
+        <topic label="filters" href="com/enjoymondays/logging/core/LogLevel.html#filters()" />
+        <topic label="getFromName" href="com/enjoymondays/logging/core/LogLevel.html#getFromName()" />
+        <topic label="passes" href="com/enjoymondays/logging/core/LogLevel.html#passes()" />
+        <topic label="toString" href="com/enjoymondays/logging/core/LogLevel.html#toString()" />
+        <topic label="valueOf" href="com/enjoymondays/logging/core/LogLevel.html#valueOf()" />
+      </topic>
+    </topic>
+    <topic label="LogMessage" href="com/enjoymondays/logging/core/LogMessage.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/core/LogMessage.html#propertySummary">
+        <topic label="className" href="com/enjoymondays/logging/core/LogMessage.html#className" />
+        <topic label="file" href="com/enjoymondays/logging/core/LogMessage.html#file" />
+        <topic label="level" href="com/enjoymondays/logging/core/LogMessage.html#level" />
+        <topic label="line" href="com/enjoymondays/logging/core/LogMessage.html#line" />
+        <topic label="logger" href="com/enjoymondays/logging/core/LogMessage.html#logger" />
+        <topic label="message" href="com/enjoymondays/logging/core/LogMessage.html#message" />
+        <topic label="methodName" href="com/enjoymondays/logging/core/LogMessage.html#methodName" />
+        <topic label="object" href="com/enjoymondays/logging/core/LogMessage.html#object" />
+        <topic label="stackTrace" href="com/enjoymondays/logging/core/LogMessage.html#stackTrace" />
+        <topic label="timestamp" href="com/enjoymondays/logging/core/LogMessage.html#timestamp" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/core/LogMessage.html#methodSummary">
+        <topic label="LogMessage" href="com/enjoymondays/logging/core/LogMessage.html#LogMessage()" />
+        <topic label="clone" href="com/enjoymondays/logging/core/LogMessage.html#clone()" />
+      </topic>
+      <topic label="Public Constants" href="com/enjoymondays/logging/core/LogMessage.html#constantSummary">
+        <topic label="EMPTY" href="com/enjoymondays/logging/core/LogMessage.html#EMPTY" />
+      </topic>
+    </topic>
+    <topic label="MessageConverter" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#propertySummary">
+        <topic label="id" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#id" />
+      </topic>
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#protectedPropertySummary" />
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#methodSummary">
+        <topic label="MessageConverter" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#MessageConverter()" />
+        <topic label="convert" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#convert()" />
+      </topic>
+    </topic>
+    <topic label="MethodConverter" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#propertySummary">
+        <topic label="id" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#id" />
+      </topic>
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#protectedPropertySummary" />
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#methodSummary">
+        <topic label="MethodConverter" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#MethodConverter()" />
+        <topic label="convert" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#convert()" />
+      </topic>
+      <topic label="Public Constants" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#constantSummary" />
+    </topic>
+    <topic label="PatternFormater" href="com/enjoymondays/logging/formaters/PatternFormater.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/PatternFormater.html#propertySummary" />
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/PatternFormater.html#protectedPropertySummary" />
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/PatternFormater.html#methodSummary">
+        <topic label="PatternFormater" href="com/enjoymondays/logging/formaters/PatternFormater.html#PatternFormater()" />
+        <topic label="addFormatLayout" href="com/enjoymondays/logging/formaters/PatternFormater.html#addFormatLayout()" />
+        <topic label="format" href="com/enjoymondays/logging/formaters/PatternFormater.html#format()" />
+        <topic label="isStackNeeded" href="com/enjoymondays/logging/formaters/PatternFormater.html#isStackNeeded()" />
+      </topic>
+      <topic label="Public Constants" href="com/enjoymondays/logging/formaters/PatternFormater.html#constantSummary">
+        <topic label="PATTERN_CATEGORY" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_CATEGORY" />
+        <topic label="PATTERN_CLASS" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_CLASS" />
+        <topic label="PATTERN_DATE" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_DATE" />
+        <topic label="PATTERN_FILE" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_FILE" />
+        <topic label="PATTERN_LEVEL" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_LEVEL" />
+        <topic label="PATTERN_LINE_NUMBER" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_LINE_NUMBER" />
+        <topic label="PATTERN_MESSAGE" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_MESSAGE" />
+        <topic label="PATTERN_METHOD" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_METHOD" />
+        <topic label="PATTERN_NEW_LINE" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_NEW_LINE" />
+      </topic>
+    </topic>
+    <topic label="PatternVO" href="com/enjoymondays/logging/vos/PatternVO.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/vos/PatternVO.html#propertySummary">
+        <topic label="fallback" href="com/enjoymondays/logging/vos/PatternVO.html#fallback" />
+        <topic label="level" href="com/enjoymondays/logging/vos/PatternVO.html#level" />
+        <topic label="pattern" href="com/enjoymondays/logging/vos/PatternVO.html#pattern" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/vos/PatternVO.html#methodSummary">
+        <topic label="PatternVO" href="com/enjoymondays/logging/vos/PatternVO.html#PatternVO()" />
+        <topic label="toString" href="com/enjoymondays/logging/vos/PatternVO.html#toString()" />
+      </topic>
+    </topic>
+    <topic label="StackConverter" href="com/enjoymondays/logging/formaters/converters/StackConverter.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#propertySummary">
+        <topic label="id" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#id" />
+      </topic>
+      <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#protectedPropertySummary" />
+      <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#methodSummary">
+        <topic label="StackConverter" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#StackConverter()" />
+        <topic label="convert" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#convert()" />
+      </topic>
+      <topic label="Public Constants" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#constantSummary">
+        <topic label="PATTERN" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#PATTERN" />
+      </topic>
+    </topic>
+    <topic label="StackPart" href="com/enjoymondays/logging/formaters/converters/StackPart.html">
+      <topic label="Public Constants" href="com/enjoymondays/logging/formaters/converters/StackPart.html#constantSummary">
+        <topic label="CLASS_NAME" href="com/enjoymondays/logging/formaters/converters/StackPart.html#CLASS_NAME" />
+        <topic label="FILE_NAME" href="com/enjoymondays/logging/formaters/converters/StackPart.html#FILE_NAME" />
+        <topic label="LINE_NUMBER" href="com/enjoymondays/logging/formaters/converters/StackPart.html#LINE_NUMBER" />
+        <topic label="METHOD_NAME" href="com/enjoymondays/logging/formaters/converters/StackPart.html#METHOD_NAME" />
+        <topic label="PACKAGE_NAME" href="com/enjoymondays/logging/formaters/converters/StackPart.html#PACKAGE_NAME" />
+      </topic>
+    </topic>
+    <topic label="StackTrace" href="com/enjoymondays/logging/plugins/StackTrace.html">
+      <topic label="Public Properties" href="com/enjoymondays/logging/plugins/StackTrace.html#propertySummary">
+        <topic label="className" href="com/enjoymondays/logging/plugins/StackTrace.html#className" />
+        <topic label="file" href="com/enjoymondays/logging/plugins/StackTrace.html#file" />
+        <topic label="line" href="com/enjoymondays/logging/plugins/StackTrace.html#line" />
+        <topic label="methodName" href="com/enjoymondays/logging/plugins/StackTrace.html#methodName" />
+        <topic label="raw" href="com/enjoymondays/logging/plugins/StackTrace.html#raw" />
+      </topic>
+      <topic label="Public Methods" href="com/enjoymondays/logging/plugins/StackTrace.html#methodSummary">
+        <topic label="StackTrace" href="com/enjoymondays/logging/plugins/StackTrace.html#StackTrace()" />
+        <topic label="getStackTrace" href="com/enjoymondays/logging/plugins/StackTrace.html#getStackTrace()" />
+        <topic label="toString" href="com/enjoymondays/logging/plugins/StackTrace.html#toString()" />
+      </topic>
+      <topic label="Protected Methods" href="com/enjoymondays/logging/plugins/StackTrace.html#protectedMethodSummary">
+        <topic label="_trace" href="com/enjoymondays/logging/plugins/StackTrace.html#_trace()" />
+      </topic>
+      <topic label="Public Constants" href="com/enjoymondays/logging/plugins/StackTrace.html#constantSummary">
+        <topic label="NULL" href="com/enjoymondays/logging/plugins/StackTrace.html#NULL" />
+      </topic>
+    </topic>
+  </topic>
+  <topic label="All Packages" href="package-summary.html">
+    <topic label="Top Level" href="package-detail.html">
+      <topic label="FormatterTest" href="FormatterTest.html">
+        <topic label="Public Methods" href="FormatterTest.html#methodSummary">
+          <topic label="FormatterTest" href="FormatterTest.html#FormatterTest()" />
+        </topic>
+      </topic>
+    </topic>
+    <topic label="com.enjoymondays.logging.core" href="com/enjoymondays/logging/core/package-detail.html">
+      <topic label="ILoggerFormatter" href="com/enjoymondays/logging/core/ILoggerFormatter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/core/ILoggerFormatter.html#propertySummary">
+          <topic label="defaultPattern" href="com/enjoymondays/logging/core/ILoggerFormatter.html#defaultPattern" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/core/ILoggerFormatter.html#methodSummary">
+          <topic label="format" href="com/enjoymondays/logging/core/ILoggerFormatter.html#format()" />
+          <topic label="getPatternFor" href="com/enjoymondays/logging/core/ILoggerFormatter.html#getPatternFor()" />
+          <topic label="isStackNeeded" href="com/enjoymondays/logging/core/ILoggerFormatter.html#isStackNeeded()" />
+          <topic label="setLevelPatterns" href="com/enjoymondays/logging/core/ILoggerFormatter.html#setLevelPatterns()" />
+        </topic>
+      </topic>
+      <topic label="ILogLevel" href="com/enjoymondays/logging/core/ILogLevel.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/core/ILogLevel.html#propertySummary">
+          <topic label="name" href="com/enjoymondays/logging/core/ILogLevel.html#name" />
+          <topic label="value" href="com/enjoymondays/logging/core/ILogLevel.html#value" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/core/ILogLevel.html#methodSummary">
+          <topic label="equalTo" href="com/enjoymondays/logging/core/ILogLevel.html#equalTo()" />
+          <topic label="filters" href="com/enjoymondays/logging/core/ILogLevel.html#filters()" />
+          <topic label="passes" href="com/enjoymondays/logging/core/ILogLevel.html#passes()" />
+          <topic label="toString" href="com/enjoymondays/logging/core/ILogLevel.html#toString()" />
+          <topic label="valueOf" href="com/enjoymondays/logging/core/ILogLevel.html#valueOf()" />
+        </topic>
+      </topic>
+      <topic label="ILogMessage" href="com/enjoymondays/logging/core/ILogMessage.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/core/ILogMessage.html#propertySummary">
+          <topic label="className" href="com/enjoymondays/logging/core/ILogMessage.html#className" />
+          <topic label="file" href="com/enjoymondays/logging/core/ILogMessage.html#file" />
+          <topic label="level" href="com/enjoymondays/logging/core/ILogMessage.html#level" />
+          <topic label="line" href="com/enjoymondays/logging/core/ILogMessage.html#line" />
+          <topic label="logger" href="com/enjoymondays/logging/core/ILogMessage.html#logger" />
+          <topic label="message" href="com/enjoymondays/logging/core/ILogMessage.html#message" />
+          <topic label="methodName" href="com/enjoymondays/logging/core/ILogMessage.html#methodName" />
+          <topic label="object" href="com/enjoymondays/logging/core/ILogMessage.html#object" />
+          <topic label="stackTrace" href="com/enjoymondays/logging/core/ILogMessage.html#stackTrace" />
+          <topic label="timestamp" href="com/enjoymondays/logging/core/ILogMessage.html#timestamp" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/core/ILogMessage.html#methodSummary">
+          <topic label="clone" href="com/enjoymondays/logging/core/ILogMessage.html#clone()" />
+        </topic>
+      </topic>
+      <topic label="ILogMessageConverter" href="com/enjoymondays/logging/core/ILogMessageConverter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/core/ILogMessageConverter.html#propertySummary">
+          <topic label="id" href="com/enjoymondays/logging/core/ILogMessageConverter.html#id" />
+          <topic label="options" href="com/enjoymondays/logging/core/ILogMessageConverter.html#options" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/core/ILogMessageConverter.html#methodSummary">
+          <topic label="convert" href="com/enjoymondays/logging/core/ILogMessageConverter.html#convert()" />
+        </topic>
+      </topic>
+      <topic label="IStackTrace" href="com/enjoymondays/logging/core/IStackTrace.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/core/IStackTrace.html#propertySummary">
+          <topic label="className" href="com/enjoymondays/logging/core/IStackTrace.html#className" />
+          <topic label="file" href="com/enjoymondays/logging/core/IStackTrace.html#file" />
+          <topic label="line" href="com/enjoymondays/logging/core/IStackTrace.html#line" />
+          <topic label="methodName" href="com/enjoymondays/logging/core/IStackTrace.html#methodName" />
+          <topic label="raw" href="com/enjoymondays/logging/core/IStackTrace.html#raw" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/core/IStackTrace.html#methodSummary">
+          <topic label="toString" href="com/enjoymondays/logging/core/IStackTrace.html#toString()" />
+        </topic>
+      </topic>
+      <topic label="LogLevel" href="com/enjoymondays/logging/core/LogLevel.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/core/LogLevel.html#propertySummary">
+          <topic label="ALL" href="com/enjoymondays/logging/core/LogLevel.html#ALL" />
+          <topic label="DEBUG" href="com/enjoymondays/logging/core/LogLevel.html#DEBUG" />
+          <topic label="ERROR" href="com/enjoymondays/logging/core/LogLevel.html#ERROR" />
+          <topic label="FATAL" href="com/enjoymondays/logging/core/LogLevel.html#FATAL" />
+          <topic label="INFO" href="com/enjoymondays/logging/core/LogLevel.html#INFO" />
+          <topic label="LOG" href="com/enjoymondays/logging/core/LogLevel.html#LOG" />
+          <topic label="name" href="com/enjoymondays/logging/core/LogLevel.html#name" />
+          <topic label="OFF" href="com/enjoymondays/logging/core/LogLevel.html#OFF" />
+          <topic label="value" href="com/enjoymondays/logging/core/LogLevel.html#value" />
+          <topic label="WARN" href="com/enjoymondays/logging/core/LogLevel.html#WARN" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/core/LogLevel.html#methodSummary">
+          <topic label="LogLevel" href="com/enjoymondays/logging/core/LogLevel.html#LogLevel()" />
+          <topic label="equalTo" href="com/enjoymondays/logging/core/LogLevel.html#equalTo()" />
+          <topic label="filters" href="com/enjoymondays/logging/core/LogLevel.html#filters()" />
+          <topic label="getFromName" href="com/enjoymondays/logging/core/LogLevel.html#getFromName()" />
+          <topic label="passes" href="com/enjoymondays/logging/core/LogLevel.html#passes()" />
+          <topic label="toString" href="com/enjoymondays/logging/core/LogLevel.html#toString()" />
+          <topic label="valueOf" href="com/enjoymondays/logging/core/LogLevel.html#valueOf()" />
+        </topic>
+      </topic>
+      <topic label="LogMessage" href="com/enjoymondays/logging/core/LogMessage.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/core/LogMessage.html#propertySummary">
+          <topic label="className" href="com/enjoymondays/logging/core/LogMessage.html#className" />
+          <topic label="file" href="com/enjoymondays/logging/core/LogMessage.html#file" />
+          <topic label="level" href="com/enjoymondays/logging/core/LogMessage.html#level" />
+          <topic label="line" href="com/enjoymondays/logging/core/LogMessage.html#line" />
+          <topic label="logger" href="com/enjoymondays/logging/core/LogMessage.html#logger" />
+          <topic label="message" href="com/enjoymondays/logging/core/LogMessage.html#message" />
+          <topic label="methodName" href="com/enjoymondays/logging/core/LogMessage.html#methodName" />
+          <topic label="object" href="com/enjoymondays/logging/core/LogMessage.html#object" />
+          <topic label="stackTrace" href="com/enjoymondays/logging/core/LogMessage.html#stackTrace" />
+          <topic label="timestamp" href="com/enjoymondays/logging/core/LogMessage.html#timestamp" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/core/LogMessage.html#methodSummary">
+          <topic label="LogMessage" href="com/enjoymondays/logging/core/LogMessage.html#LogMessage()" />
+          <topic label="clone" href="com/enjoymondays/logging/core/LogMessage.html#clone()" />
+        </topic>
+        <topic label="Public Constants" href="com/enjoymondays/logging/core/LogMessage.html#constantSummary">
+          <topic label="EMPTY" href="com/enjoymondays/logging/core/LogMessage.html#EMPTY" />
+        </topic>
+      </topic>
+    </topic>
+    <topic label="com.enjoymondays.logging.formaters" href="com/enjoymondays/logging/formaters/package-detail.html">
+      <topic label="AbstractFormater" href="com/enjoymondays/logging/formaters/AbstractFormater.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/AbstractFormater.html#propertySummary">
+          <topic label="defaultPattern" href="com/enjoymondays/logging/formaters/AbstractFormater.html#defaultPattern" />
+        </topic>
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/AbstractFormater.html#protectedPropertySummary">
+          <topic label="_patterns" href="com/enjoymondays/logging/formaters/AbstractFormater.html#_patterns" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/AbstractFormater.html#methodSummary">
+          <topic label="AbstractFormater" href="com/enjoymondays/logging/formaters/AbstractFormater.html#AbstractFormater()" />
+          <topic label="format" href="com/enjoymondays/logging/formaters/AbstractFormater.html#format()" />
+          <topic label="getPatternFor" href="com/enjoymondays/logging/formaters/AbstractFormater.html#getPatternFor()" />
+          <topic label="isStackNeeded" href="com/enjoymondays/logging/formaters/AbstractFormater.html#isStackNeeded()" />
+          <topic label="setLevelPatterns" href="com/enjoymondays/logging/formaters/AbstractFormater.html#setLevelPatterns()" />
+        </topic>
+        <topic label="Public Constants" href="com/enjoymondays/logging/formaters/AbstractFormater.html#constantSummary">
+          <topic label="DEFAULT_PATTERN" href="com/enjoymondays/logging/formaters/AbstractFormater.html#DEFAULT_PATTERN" />
+        </topic>
+      </topic>
+      <topic label="PatternFormater" href="com/enjoymondays/logging/formaters/PatternFormater.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/PatternFormater.html#propertySummary" />
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/PatternFormater.html#protectedPropertySummary" />
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/PatternFormater.html#methodSummary">
+          <topic label="PatternFormater" href="com/enjoymondays/logging/formaters/PatternFormater.html#PatternFormater()" />
+          <topic label="addFormatLayout" href="com/enjoymondays/logging/formaters/PatternFormater.html#addFormatLayout()" />
+          <topic label="format" href="com/enjoymondays/logging/formaters/PatternFormater.html#format()" />
+          <topic label="isStackNeeded" href="com/enjoymondays/logging/formaters/PatternFormater.html#isStackNeeded()" />
+        </topic>
+        <topic label="Public Constants" href="com/enjoymondays/logging/formaters/PatternFormater.html#constantSummary">
+          <topic label="PATTERN_CATEGORY" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_CATEGORY" />
+          <topic label="PATTERN_CLASS" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_CLASS" />
+          <topic label="PATTERN_DATE" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_DATE" />
+          <topic label="PATTERN_FILE" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_FILE" />
+          <topic label="PATTERN_LEVEL" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_LEVEL" />
+          <topic label="PATTERN_LINE_NUMBER" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_LINE_NUMBER" />
+          <topic label="PATTERN_MESSAGE" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_MESSAGE" />
+          <topic label="PATTERN_METHOD" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_METHOD" />
+          <topic label="PATTERN_NEW_LINE" href="com/enjoymondays/logging/formaters/PatternFormater.html#PATTERN_NEW_LINE" />
+        </topic>
+      </topic>
+    </topic>
+    <topic label="com.enjoymondays.logging.formaters.converters" href="com/enjoymondays/logging/formaters/converters/package-detail.html">
+      <topic label="AbstractLayouter" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#propertySummary">
+          <topic label="id" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#id" />
+          <topic label="options" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#options" />
+        </topic>
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#protectedPropertySummary">
+          <topic label="_id" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#_id" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#methodSummary">
+          <topic label="AbstractLayouter" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#AbstractLayouter()" />
+          <topic label="convert" href="com/enjoymondays/logging/formaters/converters/AbstractLayouter.html#convert()" />
+        </topic>
+      </topic>
+      <topic label="ClassConverter" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#propertySummary">
+          <topic label="id" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#id" />
+          <topic label="options" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#options" />
+        </topic>
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#protectedPropertySummary" />
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#methodSummary">
+          <topic label="ClassConverter" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#ClassConverter()" />
+          <topic label="convert" href="com/enjoymondays/logging/formaters/converters/ClassConverter.html#convert()" />
+        </topic>
+      </topic>
+      <topic label="DateConverter" href="com/enjoymondays/logging/formaters/converters/DateConverter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#propertySummary">
+          <topic label="id" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#id" />
+          <topic label="options" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#options" />
+        </topic>
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#protectedPropertySummary" />
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#methodSummary">
+          <topic label="DateConverter" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#DateConverter()" />
+          <topic label="convert" href="com/enjoymondays/logging/formaters/converters/DateConverter.html#convert()" />
+        </topic>
+      </topic>
+      <topic label="FileConverter" href="com/enjoymondays/logging/formaters/converters/FileConverter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#propertySummary">
+          <topic label="id" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#id" />
+        </topic>
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#protectedPropertySummary" />
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#methodSummary">
+          <topic label="FileConverter" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#FileConverter()" />
+          <topic label="convert" href="com/enjoymondays/logging/formaters/converters/FileConverter.html#convert()" />
+        </topic>
+      </topic>
+      <topic label="LevelConverter" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#propertySummary">
+          <topic label="id" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#id" />
+          <topic label="options" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#options" />
+        </topic>
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#protectedPropertySummary" />
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#methodSummary">
+          <topic label="LevelConverter" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#LevelConverter()" />
+          <topic label="convert" href="com/enjoymondays/logging/formaters/converters/LevelConverter.html#convert()" />
+        </topic>
+      </topic>
+      <topic label="LineNumberConverter" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#propertySummary">
+          <topic label="id" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#id" />
+        </topic>
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#protectedPropertySummary" />
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#methodSummary">
+          <topic label="LineNumberConverter" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#LineNumberConverter()" />
+          <topic label="convert" href="com/enjoymondays/logging/formaters/converters/LineNumberConverter.html#convert()" />
+        </topic>
+      </topic>
+      <topic label="MessageConverter" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#propertySummary">
+          <topic label="id" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#id" />
+        </topic>
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#protectedPropertySummary" />
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#methodSummary">
+          <topic label="MessageConverter" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#MessageConverter()" />
+          <topic label="convert" href="com/enjoymondays/logging/formaters/converters/MessageConverter.html#convert()" />
+        </topic>
+      </topic>
+      <topic label="MethodConverter" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#propertySummary">
+          <topic label="id" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#id" />
+        </topic>
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#protectedPropertySummary" />
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#methodSummary">
+          <topic label="MethodConverter" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#MethodConverter()" />
+          <topic label="convert" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#convert()" />
+        </topic>
+        <topic label="Public Constants" href="com/enjoymondays/logging/formaters/converters/MethodConverter.html#constantSummary" />
+      </topic>
+      <topic label="StackConverter" href="com/enjoymondays/logging/formaters/converters/StackConverter.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#propertySummary">
+          <topic label="id" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#id" />
+        </topic>
+        <topic label="Protected Properties" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#protectedPropertySummary" />
+        <topic label="Public Methods" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#methodSummary">
+          <topic label="StackConverter" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#StackConverter()" />
+          <topic label="convert" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#convert()" />
+        </topic>
+        <topic label="Public Constants" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#constantSummary">
+          <topic label="PATTERN" href="com/enjoymondays/logging/formaters/converters/StackConverter.html#PATTERN" />
+        </topic>
+      </topic>
+      <topic label="StackPart" href="com/enjoymondays/logging/formaters/converters/StackPart.html">
+        <topic label="Public Constants" href="com/enjoymondays/logging/formaters/converters/StackPart.html#constantSummary">
+          <topic label="CLASS_NAME" href="com/enjoymondays/logging/formaters/converters/StackPart.html#CLASS_NAME" />
+          <topic label="FILE_NAME" href="com/enjoymondays/logging/formaters/converters/StackPart.html#FILE_NAME" />
+          <topic label="LINE_NUMBER" href="com/enjoymondays/logging/formaters/converters/StackPart.html#LINE_NUMBER" />
+          <topic label="METHOD_NAME" href="com/enjoymondays/logging/formaters/converters/StackPart.html#METHOD_NAME" />
+          <topic label="PACKAGE_NAME" href="com/enjoymondays/logging/formaters/converters/StackPart.html#PACKAGE_NAME" />
+        </topic>
+      </topic>
+    </topic>
+    <topic label="com.enjoymondays.logging.plugins" href="com/enjoymondays/logging/plugins/package-detail.html">
+      <topic label="StackTrace" href="com/enjoymondays/logging/plugins/StackTrace.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/plugins/StackTrace.html#propertySummary">
+          <topic label="className" href="com/enjoymondays/logging/plugins/StackTrace.html#className" />
+          <topic label="file" href="com/enjoymondays/logging/plugins/StackTrace.html#file" />
+          <topic label="line" href="com/enjoymondays/logging/plugins/StackTrace.html#line" />
+          <topic label="methodName" href="com/enjoymondays/logging/plugins/StackTrace.html#methodName" />
+          <topic label="raw" href="com/enjoymondays/logging/plugins/StackTrace.html#raw" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/plugins/StackTrace.html#methodSummary">
+          <topic label="StackTrace" href="com/enjoymondays/logging/plugins/StackTrace.html#StackTrace()" />
+          <topic label="getStackTrace" href="com/enjoymondays/logging/plugins/StackTrace.html#getStackTrace()" />
+          <topic label="toString" href="com/enjoymondays/logging/plugins/StackTrace.html#toString()" />
+        </topic>
+        <topic label="Protected Methods" href="com/enjoymondays/logging/plugins/StackTrace.html#protectedMethodSummary">
+          <topic label="_trace" href="com/enjoymondays/logging/plugins/StackTrace.html#_trace()" />
+        </topic>
+        <topic label="Public Constants" href="com/enjoymondays/logging/plugins/StackTrace.html#constantSummary">
+          <topic label="NULL" href="com/enjoymondays/logging/plugins/StackTrace.html#NULL" />
+        </topic>
+      </topic>
+    </topic>
+    <topic label="com.enjoymondays.logging.utils" href="com/enjoymondays/logging/utils/package-detail.html">
+      <topic label="DateUtils" href="com/enjoymondays/logging/utils/DateUtils.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/utils/DateUtils.html#propertySummary">
+          <topic label="days" href="com/enjoymondays/logging/utils/DateUtils.html#days" />
+          <topic label="months" href="com/enjoymondays/logging/utils/DateUtils.html#months" />
+          <topic label="shortdays" href="com/enjoymondays/logging/utils/DateUtils.html#shortdays" />
+          <topic label="shortmonths" href="com/enjoymondays/logging/utils/DateUtils.html#shortmonths" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/utils/DateUtils.html#methodSummary">
+          <topic label="DateUtils" href="com/enjoymondays/logging/utils/DateUtils.html#DateUtils()" />
+          <topic label="daysToHours" href="com/enjoymondays/logging/utils/DateUtils.html#daysToHours()" />
+          <topic label="daysToMilliseconds" href="com/enjoymondays/logging/utils/DateUtils.html#daysToMilliseconds()" />
+          <topic label="daysToMinutes" href="com/enjoymondays/logging/utils/DateUtils.html#daysToMinutes()" />
+          <topic label="daysToSeconds" href="com/enjoymondays/logging/utils/DateUtils.html#daysToSeconds()" />
+          <topic label="formatDate" href="com/enjoymondays/logging/utils/DateUtils.html#formatDate()" />
+          <topic label="fromString" href="com/enjoymondays/logging/utils/DateUtils.html#fromString()" />
+          <topic label="getDay" href="com/enjoymondays/logging/utils/DateUtils.html#getDay()" />
+          <topic label="getDayAbbrAsString" href="com/enjoymondays/logging/utils/DateUtils.html#getDayAbbrAsString()" />
+          <topic label="getDayAsString" href="com/enjoymondays/logging/utils/DateUtils.html#getDayAsString()" />
+          <topic label="getDayOfTheYear" href="com/enjoymondays/logging/utils/DateUtils.html#getDayOfTheYear()" />
+          <topic label="getDaysInMonth" href="com/enjoymondays/logging/utils/DateUtils.html#getDaysInMonth()" />
+          <topic label="getDifferenceFromUTCInHours" href="com/enjoymondays/logging/utils/DateUtils.html#getDifferenceFromUTCInHours()" />
+          <topic label="getDifferenceFromUTCInSeconds" href="com/enjoymondays/logging/utils/DateUtils.html#getDifferenceFromUTCInSeconds()" />
+          <topic label="getFormattedDifferenceFromUTC" href="com/enjoymondays/logging/utils/DateUtils.html#getFormattedDifferenceFromUTC()" />
+          <topic label="getInternetTime" href="com/enjoymondays/logging/utils/DateUtils.html#getInternetTime()" />
+          <topic label="getMeridiem" href="com/enjoymondays/logging/utils/DateUtils.html#getMeridiem()" />
+          <topic label="getMonth" href="com/enjoymondays/logging/utils/DateUtils.html#getMonth()" />
+          <topic label="getMonthAbbrAsString" href="com/enjoymondays/logging/utils/DateUtils.html#getMonthAbbrAsString()" />
+          <topic label="getMonthAsString" href="com/enjoymondays/logging/utils/DateUtils.html#getMonthAsString()" />
+          <topic label="getShortMonth" href="com/enjoymondays/logging/utils/DateUtils.html#getShortMonth()" />
+          <topic label="getTimeBetween" href="com/enjoymondays/logging/utils/DateUtils.html#getTimeBetween()" />
+          <topic label="getTimezone" href="com/enjoymondays/logging/utils/DateUtils.html#getTimezone()" />
+          <topic label="getWeekOfTheYear" href="com/enjoymondays/logging/utils/DateUtils.html#getWeekOfTheYear()" />
+          <topic label="hoursToDays" href="com/enjoymondays/logging/utils/DateUtils.html#hoursToDays()" />
+          <topic label="hoursToMilliseconds" href="com/enjoymondays/logging/utils/DateUtils.html#hoursToMilliseconds()" />
+          <topic label="hoursToMinutes" href="com/enjoymondays/logging/utils/DateUtils.html#hoursToMinutes()" />
+          <topic label="hoursToSeconds" href="com/enjoymondays/logging/utils/DateUtils.html#hoursToSeconds()" />
+          <topic label="isDaylightSavings" href="com/enjoymondays/logging/utils/DateUtils.html#isDaylightSavings()" />
+          <topic label="isLeapYear" href="com/enjoymondays/logging/utils/DateUtils.html#isLeapYear()" />
+          <topic label="millisecondsToDays" href="com/enjoymondays/logging/utils/DateUtils.html#millisecondsToDays()" />
+          <topic label="millisecondsToHours" href="com/enjoymondays/logging/utils/DateUtils.html#millisecondsToHours()" />
+          <topic label="millisecondsToMinutes" href="com/enjoymondays/logging/utils/DateUtils.html#millisecondsToMinutes()" />
+          <topic label="millisecondsToSeconds" href="com/enjoymondays/logging/utils/DateUtils.html#millisecondsToSeconds()" />
+          <topic label="minutesToDays" href="com/enjoymondays/logging/utils/DateUtils.html#minutesToDays()" />
+          <topic label="minutesToHours" href="com/enjoymondays/logging/utils/DateUtils.html#minutesToHours()" />
+          <topic label="minutesToMilliseconds" href="com/enjoymondays/logging/utils/DateUtils.html#minutesToMilliseconds()" />
+          <topic label="minutesToSeconds" href="com/enjoymondays/logging/utils/DateUtils.html#minutesToSeconds()" />
+          <topic label="secondsToDays" href="com/enjoymondays/logging/utils/DateUtils.html#secondsToDays()" />
+          <topic label="secondsToHours" href="com/enjoymondays/logging/utils/DateUtils.html#secondsToHours()" />
+          <topic label="secondsToMilliseconds" href="com/enjoymondays/logging/utils/DateUtils.html#secondsToMilliseconds()" />
+          <topic label="secondsToMinutes" href="com/enjoymondays/logging/utils/DateUtils.html#secondsToMinutes()" />
+        </topic>
+      </topic>
+    </topic>
+    <topic label="com.enjoymondays.logging.vos" href="com/enjoymondays/logging/vos/package-detail.html">
+      <topic label="FormatLayoutVO" href="com/enjoymondays/logging/vos/FormatLayoutVO.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#propertySummary">
+          <topic label="converter" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#converter" />
+          <topic label="matchPattern" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#matchPattern" />
+          <topic label="replacePattern" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#replacePattern" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#methodSummary">
+          <topic label="FormatLayoutVO" href="com/enjoymondays/logging/vos/FormatLayoutVO.html#FormatLayoutVO()" />
+        </topic>
+      </topic>
+      <topic label="PatternVO" href="com/enjoymondays/logging/vos/PatternVO.html">
+        <topic label="Public Properties" href="com/enjoymondays/logging/vos/PatternVO.html#propertySummary">
+          <topic label="fallback" href="com/enjoymondays/logging/vos/PatternVO.html#fallback" />
+          <topic label="level" href="com/enjoymondays/logging/vos/PatternVO.html#level" />
+          <topic label="pattern" href="com/enjoymondays/logging/vos/PatternVO.html#pattern" />
+        </topic>
+        <topic label="Public Methods" href="com/enjoymondays/logging/vos/PatternVO.html#methodSummary">
+          <topic label="PatternVO" href="com/enjoymondays/logging/vos/PatternVO.html#PatternVO()" />
+          <topic label="toString" href="com/enjoymondays/logging/vos/PatternVO.html#toString()" />
+        </topic>
+      </topic>
+    </topic>
+    <topic label="com.enjoymondays.utils" href="com/enjoymondays/utils/package-detail.html">
+      <topic label="Functions" href="com/enjoymondays/utils/package-detail.html#methodSummary">
+        <topic label="fixArguments" href="com/enjoymondays/utils/package.html#fixArguments()" />
+      </topic>
+    </topic>
+  </topic>
+  <topic label="Index" href="all-index-A.html" />
+</toc>

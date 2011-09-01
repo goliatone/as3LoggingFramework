@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<logging mode="debug" build="com.enjoymondays.logging.config.LoggerConfig">
+	<debug threshold="ALL" >
+		<publisher>
+			<target   build = "com.enjoymondays.logging.publishers.AlconLogger" />
+			<formater build = "com.enjoymondays.logging.formaters.PatternFormater" >
+				<pattern fallback="true"><![CDATA[%d{H:i:s} [%5p] %C{10} >>%n%m%n-----------------]]></pattern>
+				<pattern level="ERROR" ><![CDATA[%C{10} >> %n %m @%d{H:i:s}]]></pattern>
+			</formater>
+			<config>
+				<parameter name="serviceURL"><![CDATA[http://www.enjoymondays.com/logger/gateway]]></parameter>
+			</config>
+		</publisher>
+		<!--publisher>
+			<target   build = "com.enjoymondays.logging.publishers.FDTracer" delayed="true" />
+			<formater build = "com.enjoymondays.logging.formaters.PatternFormater">
+				<pattern level="INFO" fallback="true"><![CDATA[%C{10} - %m%n]]></pattern>
+				<pattern level="ERROR"><![CDATA[%d{H:i:s} [%5p] %C{10} >> %n %m]]></pattern>
+			</formater>
+		</publisher-->
+		<logger	  build = "com.enjoymondays.logging.loggers.DefaultLogger" />
+		<manager  build = "com.enjoymondays.logging.managers.LoggerManager" />
+		<debugger build = "com.enjoymondays.logging.debuggers.DefaultDebugger" />
+	</debug>
+	
+	<release threshold="WARN" disabled="INFO,FATAL">
+		<publisher>
+			<target   build = "com.enjoymondays.logging.publishers.FDTracer" delayed="true" />
+			<formater build = "com.enjoymondays.logging.formaters.StringFormater" />
+		</publisher>
+		<disabledPackages>
+			<package id="com.skinnygeek.mvc.commands.implemented" />
+			<package id="com.skinnygeek.utils" />
+		</disabledPackages>
+		<levelFilters>
+			<filter target="com.skinnygeek.mvc.commands" level="INFO" />
+			<filter target="com.skinnygeek.mvc.commands" level="INFO" />
+		</levelFilters>
+		<manager  build = "com.enjoymondays.logging.managers.NullLoggerManager" />
+	</release>
+	
+	<remote threshold="WARN" disabled="INFO,FATAL">
+		<publisher>
+			<target   build = "com.enjoymondays.logging.publishers.FDTracer" delayed="true" />
+			<formater build = "com.enjoymondays.logging.formaters.StringFormater" />
+		</publisher>
+		<publisher>
+			<target   build = "com.enjoymondays.logging.publishers.AlconLogger" />
+			<formater build = "com.enjoymondays.logging.formaters.PatternFormater" >
+				<pattern fallback="true"><![CDATA[%d{H:i:s} [%5p] %C{10} >> %m%n-----------------]]></pattern>
+				<pattern level="ERROR" ><![CDATA[%C{10} >> %n %m @%d{H:i:s}]]></pattern>
+			</formater>
+		</publisher>
+		<disabledPackages>
+			<package id="com.skinnygeek.mvc.commands.implemented" />
+			<package id="com.skinnygeek.utils" />
+		</disabledPackages>
+		<levelFilters>
+			<filter target="com.skinnygeek.mvc.commands" level="INFO" />
+			<filter target="com.skinnygeek.mvc.commands" level="INFO" />
+		</levelFilters>
+		<manager  build = "com.enjoymondays.logging.managers.NullLoggerManager" />
+	</remote>
+</logging>

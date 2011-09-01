@@ -1,0 +1,21 @@
+MAIN GOALS:
+>>One;
+Have an implementation that allow us to remove the dependency and weight of the concrete logging framework on deployed escenarios.
+Since we code to interfaces, we only need one concrete class and some interfaces in our main application. The rest should be loaded
+at runtime if/as needed.
+Perhaps we can use a workflow were we load a config XML and check what type of session we want. If is a "release" mode, we don't need
+to load the shell.swf and the app does not resent. Or we can load a lighter one that only logs above WARN/ERROR to a DDBB...or whatever.
+
+>>Two:
+Create a remote debugging mechanism for two things.
+We can pull the type fo session when we start, so debugging sessions would be dynamic.
+Allow for
+
+
+Remote configuration:
+DefferedLogger:
+
+
+>>ADD A CONFIG EXAMPLE WHERE WE SHOW ITS STRENGHTS.
+We could have one logger on debug that points to a local DDBB and logs ALL levels, and have the same publisher that points to a different DDBB and logs above a
+certain level.
